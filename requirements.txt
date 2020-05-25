@@ -1,0 +1,4 @@
+requests
+pprint
+ckan
+ckanapi
