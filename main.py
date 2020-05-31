@@ -1,32 +1,79 @@
 import sys
-from remote_ckan_interface import *
-from local_ckan_interface import *
+from remote_ckan_interface import RemoteCkanInterface
+from local_ckan_interface import LocalCkanInterface
+
+import pprint as pp
 
 
 def main():
-    command = sys.argv[1]
+    if len(sys.argv) < 2 or sys.argv[1] == 'help':
+        print('Options:\n'
+              '  help\n'
+              '  remote                     operations based in the remote CKAN server (http://dados.cvm.gov.br)\n'
+              '    get [-p,--persist]       download all investment funds related resources in the default datasets\n'
+              '                             directory.\n\n'
+              '        [-d, --dataset <dataset>]\n'
+              '                             override the default dataset directory.\n'
+              '    list                     list all investment funds datasets available in the remote CKAN.\n\n'
+              '  local\n'
+              '    update [-d <dataset>]    persist current resource files in the default datasets directory or\n'
+              '                             in the directory specified by -d.')
+        return
+
+    ckan = sys.argv[1]
+    if ckan == 'remote':
+        remote_ckan_cmd(sys.argv[2:])
+    elif ckan == 'local':
+        local_ckan_cmd(sys.argv)
+    else:
+        print('Run `py main.py help` for running options.')
+
+
+def remote_ckan_cmd(args):
+    command = args[0]
+    ckan = RemoteCkanInterface()
+
     if command == 'get':
-        setup('http://dados.cvm.gov.br/', './datasets')
-        get_from_remote_ckan()
-    elif command == 'update_db':
-        setup('http://localhost:5000/', '')
-        persist_resources()
+        if_pkgs = ckan.list_if_pkgs()
+        print('Datasets of Investment Funds:')
+        _pprint(if_pkgs)
+
+        datasets_dir = read_datasets_dir_option(args, True)
+        ckan.datasets_dir = datasets_dir
+        ckan.download_pkgs(if_pkgs)
+
+        if ('--persist' in args) or ('-p' in args):
+            LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
+
+    elif command == 'list':
+        _pprint(ckan.list_if_pkgs())
 
 
-def get_from_remote_ckan():
-    fis_pkgs = get_FIs_pkg_names()
+def local_ckan_cmd(args):
+    if args[0] == 'update':
+        datasets_dir = read_datasets_dir_option(args, False)
+        LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
 
-    print('>> Datasets of Investment Funds:')
-    pprint(fis_pkgs)
 
-    # fis_pkgs = filter(
-    #        lambda name: name not in "fi-doc-extrato fi-doc-eventual  fi-doc-compl  fi-doc-cda  fi-doc-balancete  fidc-doc-inf_mensal  fi-cad",
-    #        fis_pkgs
-    #        )
-    download_pkgs(fis_pkgs)
+def read_datasets_dir_option(args, remote_ckan):
+    datasets_long_option = '--datasets' in args
+    datasets_short_option = '-d' in args
+
+    if datasets_short_option:
+        datasets_dir = ''.join(args).split('-d')[1].split(' ')[0]
+    elif datasets_long_option:
+        datasets_dir = ''.join(args).split('--datasets')[1].split(' ')[0]
+    elif remote_ckan:
+        datasets_dir = RemoteCkanInterface.DATASETS_DIR
+    else:
+        datasets_dir = LocalCkanInterface.DATASETS_DIR
+
+    return datasets_dir.strip()
+
+
+def _pprint(x):
+    pp.PrettyPrinter(indent=2).pprint(x)
 
 
 if __name__ == '__main__':
     main()
-
-
