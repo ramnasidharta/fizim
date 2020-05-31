@@ -2,13 +2,16 @@ import os
 from ckanapi import RemoteCKAN
 
 
+API_KEY = 'cf0ece1e-854c-4a81-b2c9-af1bb794af3e'
+
+
 class LocalCkanInterface:
 
     DATASETS_DIR = './datasets'
 
     def __init__(self, ckan_url='http://ckan:5000', datasets_dir=DATASETS_DIR):
         self.DATASETS_DIR = datasets_dir
-        self.local_ckan = RemoteCKAN(ckan_url, apikey='406c8497-fb04-48bc-bb64-0f774c0526c4')
+        self.local_ckan = RemoteCKAN(ckan_url, apikey=API_KEY)
 
     def persist_resources(self):
         print(' Persist all files')
@@ -37,6 +40,7 @@ class LocalCkanInterface:
                                                   groups=[{'name': 'investment-funds'}],
                                                   owner_org='cvm')
 
+        print(f'\n   Trying to persist {name}...')
         try:
             with open(path, 'rb') as res:
                 self.local_ckan.action.resource_create(package_id=package,
@@ -47,4 +51,4 @@ class LocalCkanInterface:
             print('   [ERROR] ', e)
             return
 
-        print(f'   Persisted!')
+        print(f'   Done!')

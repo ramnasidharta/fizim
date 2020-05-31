@@ -48,7 +48,7 @@ class RemoteCkanInterface:
 
         for res in resource_list:
             url = res['url']
-            print('   Resource at ' + url)
+            print('\n   Resource at ' + url)
 
             package_subdir = url.split('/')[-2]
             res_name = url.split('/')[-1]
