@@ -25,7 +25,7 @@ def main():
     if ckan == 'remote':
         remote_ckan_cmd(sys.argv[2:])
     elif ckan == 'local':
-        local_ckan_cmd(sys.argv)
+        local_ckan_cmd(sys.argv[2:])
     else:
         print('Run `py main.py help` for running options.')
 
@@ -51,7 +51,7 @@ def remote_ckan_cmd(args):
 
 
 def local_ckan_cmd(args):
-    if args[0] == 'update':
+    if len(args) > 0 and args[0] == 'update':
         datasets_dir = read_datasets_dir_option(args, False)
         LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
 
