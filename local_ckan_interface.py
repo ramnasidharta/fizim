@@ -14,7 +14,7 @@ class LocalCkanInterface:
         self.local_ckan = RemoteCKAN(ckan_url, apikey=API_KEY)
 
     def persist_resources(self):
-        print(' Persist all files')
+        print('Persist all files')
         for root, subdirs, files in os.walk(self.DATASETS_DIR):
             files = list(filter(lambda file: file.split('.')[-1] == 'csv', files))
 
