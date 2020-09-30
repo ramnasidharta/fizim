@@ -35,19 +35,20 @@ def remote_ckan_cmd(args):
     ckan = RemoteCkanInterface()
 
     if command == 'get':
-        if_pkgs = ckan.list_if_pkgs()
+        pkgs = ckan.list_pkgs()
+
         print('Datasets of Investment Funds:')
-        _pprint(if_pkgs)
+        _pprint(pkgs)
 
         datasets_dir = read_datasets_dir_option(args, True)
         ckan.datasets_dir = datasets_dir
-        ckan.download_pkgs(if_pkgs)
+        ckan.download_pkgs(pkgs)
 
         if ('--persist' in args) or ('-p' in args):
             LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
 
     elif command == 'list':
-        _pprint(ckan.list_if_pkgs())
+        _pprint(ckan.list_pkgs())
 
 
 def local_ckan_cmd(args):

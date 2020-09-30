@@ -27,13 +27,17 @@ class RemoteCkanInterface:
     def list_pkgs(self):
         return self.ckan.action.package_list()
 
-    def list_if_pkgs(self):
+    def list_pkgs(self, pattern=None):
         packages = self.list_pkgs()
-        fis_pkgs_matcher = re.compile('fie.+')
-        return list(filter(
-            lambda x: fis_pkgs_matcher.match(x),
-            packages
-        ))
+
+        if pattern:
+            pkgs_matcher = re.compile(pattern)
+            packages = list(filter(
+                lambda x: pkgs_matcher.match(x),
+                packages
+            ))
+
+        return packages
 
     def download_pkgs(self, pkgs):
         print('>> Download resources from all FI datasources...')
