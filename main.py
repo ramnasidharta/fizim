@@ -9,15 +9,16 @@ def main():
     if len(sys.argv) < 2 or sys.argv[1] == 'help':
         print('Options:\n'
               '  help\n'
-              '  remote                     operations based in the remote CKAN server (http://dados.cvm.gov.br)\n'
+              '  remote                     perform an operation agains the remote CKAN server (http://dados.cvm.gov.br)\n'
               '    get [-p,--persist]       download all investment funds related resources in the default datasets\n'
-              '                             directory.\n\n'
+              '                             directory. If including -p, such data will be persisted to the local CKAN\n'
+              '                             instance\n\n'
               '        [-d, --dataset <dataset>]\n'
-              '                             override the default dataset directory.\n'
+              '                             specify the directory where to store all data, default is "./datasets".\n'
               '    list                     list all investment funds datasets available in the remote CKAN.\n\n'
               '  local\n'
               '    update [-d <dataset>]    persist current resource files in the default datasets directory or\n'
-              '                             in the directory specified by -d.')
+              '                             in the directory specified with -d.')
         return
 
     ckan = sys.argv[1]
