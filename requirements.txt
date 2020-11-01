@@ -1,4 +1,6 @@
 requests
-pprint
-ckan
 ckanapi
+sqlalchemy
+psycopg2
+yfinance
+lxml

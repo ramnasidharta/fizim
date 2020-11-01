@@ -1,60 +1,83 @@
 import sys
-from remote_ckan_interface import RemoteCkanInterface
+from remote_ckan_interface import CvmPlatformClient
 from local_ckan_interface import LocalCkanInterface
 
 import pprint as pp
+import utils
+import yahoofinance
 
 
 def main():
     if len(sys.argv) < 2 or sys.argv[1] == 'help':
-        print('Options:\n'
-              '  help\n'
-              '  remote                     perform an operation agains the remote CKAN server (http://dados.cvm.gov.br)\n'
-              '    get [-p,--persist]       download all investment funds related resources in the default datasets\n'
-              '                             directory. If including -p, such data will be persisted to the local CKAN\n'
-              '                             instance\n\n'
-              '        [-d, --dataset <dataset>]\n'
-              '                             specify the directory where to store all data, default is "./datasets".\n'
-              '    list                     list all investment funds datasets available in the remote CKAN.\n\n'
-              '  local\n'
-              '    update [-d <dataset>]    persist current resource files in the default datasets directory or\n'
-              '                             in the directory specified with -d.')
+        print('''Options:
+  help       Shows this instructions.
+  cvm        Perform an operation with the remote CKAN server (http://dados.cvm.gov.br).
+    get  [-p,--persist]
+             Download all public companies related resources in the default datasets
+             directory. If including -p, such data will be persisted to the local CKAN
+             instance.
+         [-d, --dataset <dataset>]
+             Specify the directory where to store all data, default is "./datasets".
+    list [-c]
+             List all datasets available in CVM platform. Adding -c will show only
+             datasets of public companies.
+  clean-scrapped [source_file] [target_file]
+            Clean the data from source_file (Parsehub scrapping file) and writes the result to
+            target_file (files respectivelly default to "scrapping/b3_companies_scrapped.json"
+            and scrapping/b3_companies.json).
+  yfinance  Get data from Yahoo Finance website.''')
+
         return
 
-    ckan = sys.argv[1]
-    if ckan == 'remote':
-        remote_ckan_cmd(sys.argv[2:])
-    elif ckan == 'local':
-        local_ckan_cmd(sys.argv[2:])
-    else:
-        print('Run `py main.py help` for running options.')
+    args = sys.argv
+    command = args[1]
+    if command == 'cvm':
+        return cvm_cmd(args[2:])
+    elif command == 'clean-scrapped':
+        if len(args) == 3:
+            return utils.clean_scrapped_companies(source_file=args[2])
+        if len(args) == 4:
+            return utils.clean_scrapped_companies(source_file=args[2], target_file=args[3])
+        else:
+            return utils.clean_scrapped_companies()
+    elif command == 'companies':
+        if ('-l' in args) or ('--list' in args):
+            _pprint(utils.get_companies())
+            return
+        elif '--previous-close' in args:
+            if '-u' in args:
+                _pprint(yahoofinance.current_price())
+                return
+            else:
+                # TODO show prices from last update
+                print('Not implemented yet')
+                return
+
+    print('Unknown command. Run `py main.py help` to see options.')
 
 
-def remote_ckan_cmd(args):
+def cvm_cmd(args):
     command = args[0]
-    ckan = RemoteCkanInterface()
+    cvm_client = CvmPlatformClient()
 
     if command == 'get':
-        pkgs = ckan.list_pkgs()
+        pkgs = cvm_client.list_pkgs(pattern='cia_aberta.+')
 
-        print('Datasets of Investment Funds:')
+        print('Datasets of public companies:')
         _pprint(pkgs)
 
         datasets_dir = read_datasets_dir_option(args, True)
-        ckan.datasets_dir = datasets_dir
-        ckan.download_pkgs(pkgs)
+        cvm_client.datasets_dir = datasets_dir
+        cvm_client.download_pkgs(pkgs)
 
-        if ('--persist' in args) or ('-p' in args):
-            LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
+        #if ('--persist' in args) or ('-p' in args):
+        #    LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
 
     elif command == 'list':
-        _pprint(ckan.list_pkgs())
-
-
-def local_ckan_cmd(args):
-    if len(args) > 0 and args[0] == 'update':
-        datasets_dir = read_datasets_dir_option(args, False)
-        LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
+        if len(args) > 1 and args[1] == '-c':
+            _pprint(cvm_client.list_pkgs(pattern='cia_aberta.+'))
+        else:
+            _pprint(cvm_client.list_pkgs())
 
 
 def read_datasets_dir_option(args, remote_ckan):
@@ -66,7 +89,7 @@ def read_datasets_dir_option(args, remote_ckan):
     elif datasets_long_option:
         datasets_dir = ''.join(args).split('--datasets')[1].split(' ')[0]
     elif remote_ckan:
-        datasets_dir = RemoteCkanInterface.DATASETS_DIR
+        datasets_dir = CvmPlatformClient.DATASETS_DIR
     else:
         datasets_dir = LocalCkanInterface.DATASETS_DIR
 
