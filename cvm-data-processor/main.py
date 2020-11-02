@@ -67,8 +67,6 @@ def cvm_cmd(args):
         print('Datasets of public companies:')
         _pprint(pkgs)
 
-        datasets_dir = read_datasets_dir_option(args, True)
-        cvm_client.datasets_dir = datasets_dir
         cvm_client.download_pkgs(pkgs)
 
         # if ('--persist' in args) or ('-p' in args):

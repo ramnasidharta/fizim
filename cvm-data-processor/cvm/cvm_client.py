@@ -1,3 +1,5 @@
+import os
+import sys
 import re
 import requests
 import logging
@@ -7,6 +9,8 @@ from requests import Response
 
 LOG = logging.getLogger('CvmPlatformClient')
 LOG.setLevel(logging.DEBUG)
+stdout_handler = logging.StreamHandler(sys.stdout)
+LOG.addHandler(stdout_handler)
 
 
 def _build_directories(path: str):
@@ -29,9 +33,8 @@ class CvmPlatformClient:
     """
 
     CVM_URL = 'http://dados.cvm.gov.br'
-    DATASETS_DIR = '../datasets'
 
-    def __init__(self, local_datasets_dir='./datasets'):
+    def __init__(self, datasets_dir=None):
         """Default constructor that initializes an instance of CKAN.
 
         Besides the ckan instance, initializes a dict to register the paths of
@@ -44,13 +47,16 @@ class CvmPlatformClient:
           }
 
         Args:
-            local_datasets_dir - the path of where the datasets (packages)
-                                 should be saved.
+            datasets_dir - the path of the local directory where datasets
+                           (packages) should be saved. Defaults to the value of
+                           the DATASETS environment variable.
         """
+        if datasets_dir:
+            self.datasets_dir = datasets_dir
+        else:
+            self.datasets_dir = os.environ['DATASETS']
 
-        self.datasets_dir = local_datasets_dir
         self.ckan = RemoteCKAN(CvmPlatformClient.CVM_URL)
-
         self.local_files = {}
 
     def list_pkgs(self, pattern: str = None) -> list:
@@ -76,7 +82,7 @@ class CvmPlatformClient:
         return packages
 
     def download_pkgs(self, pkgs: list):
-        """Downloads all the given packages to DATASETS_DIR.
+        """Downloads all the given packages to self.datasets_dir.
 
         Args:
             pkgs - a list with the names of the packages to download.
