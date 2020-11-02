@@ -3,20 +3,20 @@ import requests
 import logging
 from pathlib import Path
 from ckanapi import RemoteCKAN
-
+from requests import Response
 
 LOG = logging.getLogger('CvmPlatformClient')
 LOG.setLevel(logging.DEBUG)
 
 
-def _build_directories(path):
+def _build_directories(path: str):
     Path(path).mkdir(parents=True, exist_ok=True)
 
 
-def _save_resource_stream(r, path):
-    r.raise_for_status()
+def _save_resource_stream(response: Response, path: str):
+    response.raise_for_status()
     with open(path, 'wb') as f:
-        for chunk in r.iter_content(chunk_size=8192):
+        for chunk in response.iter_content(chunk_size=8192):
             f.write(chunk)
 
 
@@ -44,8 +44,8 @@ class CvmPlatformClient:
           }
 
         Args:
-            local_datasets_dir - the path of where the datasets (packages) should
-                                 be saved.
+            local_datasets_dir - the path of where the datasets (packages)
+                                 should be saved.
         """
 
         self.datasets_dir = local_datasets_dir
@@ -53,12 +53,13 @@ class CvmPlatformClient:
 
         self.local_files = {}
 
-
-    def list_pkgs(self, pattern=None):
-        """Returns a list of all packages of the CVM platform that follow the pattern.
+    def list_pkgs(self, pattern: str = None) -> list:
+        """Returns a list of all packages of the CVM platform that follow the
+        pattern.
 
         Args:
-            pattern - a regex pattern to filter the packages of the CVM plataform.
+            pattern - a regex pattern to filter the packages of the CVM
+                      platform.
 
         Returns:
             a list with the name of the packages.
@@ -74,8 +75,7 @@ class CvmPlatformClient:
 
         return packages
 
-
-    def download_pkgs(self, pkgs):
+    def download_pkgs(self, pkgs: list):
         """Downloads all the given packages to DATASETS_DIR.
 
         Args:
@@ -84,7 +84,6 @@ class CvmPlatformClient:
         LOG.info('Download resources from all FI datasources...')
         for pkg in pkgs:
             self.download_resources(pkg)
-
 
     def download_resources(self, package):
         """Download all resources of the given package.
@@ -118,7 +117,6 @@ class CvmPlatformClient:
             LOG.info(f'Saved: {res_destination}')
 
             self.local_files[package][res_name] = res_destination
-
 
     @staticmethod
     def download_resource(url, path):
