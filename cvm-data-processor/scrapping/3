@@ -1,0 +1,241 @@
+{
+ "companies": [
+  {
+   "number": "46",
+   "name": "BTGP BANCO",
+   "name_url": "https://www.ivalor.com.br/empresas/BPAC",
+   "code": [
+    {
+     "code": "BPAC11"
+    },
+    {
+     "code": "BPAC3"
+    },
+    {
+     "code": "BPAC5"
+    }
+   ],
+   "category": "Big Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "47",
+   "name": "BANCO PAN",
+   "name_url": "https://www.ivalor.com.br/empresas/BPAN",
+   "code": [
+    {
+     "code": "BPAN4"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "48",
+   "name": "BANPARA",
+   "name_url": "https://www.ivalor.com.br/empresas/BPAR",
+   "code": [
+    {
+     "code": "BPAR3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "49",
+   "name": "BR PHARMA",
+   "name_url": "https://www.ivalor.com.br/empresas/BPHA",
+   "code": [
+    {
+     "code": "BPHA3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "50",
+   "name": "BRADESPAR",
+   "name_url": "https://www.ivalor.com.br/empresas/BRAP",
+   "code": [
+    {
+     "code": "BRAP3"
+    },
+    {
+     "code": "BRAP4"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "51",
+   "name": "PETROBRAS BR",
+   "name_url": "https://www.ivalor.com.br/empresas/BRDT",
+   "code": [
+    {
+     "code": "BRDT3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Petróleo. Gás e Biocombustíveis",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=30"
+  },
+  {
+   "number": "52",
+   "name": "BRF SA",
+   "name_url": "https://www.ivalor.com.br/empresas/BRFS",
+   "code": [
+    {
+     "code": "BRFS3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Consumo não Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=24"
+  },
+  {
+   "number": "53",
+   "name": "ALFA CONSORC",
+   "name_url": "https://www.ivalor.com.br/empresas/BRGE",
+   "code": [
+    {
+     "code": "BRGE11"
+    },
+    {
+     "code": "BRGE12"
+    },
+    {
+     "code": "BRGE3"
+    },
+    {
+     "code": "BRGE5"
+    },
+    {
+     "code": "BRGE6"
+    },
+    {
+     "code": "BRGE7"
+    },
+    {
+     "code": "BRGE8"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "54",
+   "name": "ALFA INVEST",
+   "name_url": "https://www.ivalor.com.br/empresas/BRIV",
+   "code": [
+    {
+     "code": "BRIV3"
+    },
+    {
+     "code": "BRIV4"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "55",
+   "name": "BRASKEM",
+   "name_url": "https://www.ivalor.com.br/empresas/BRKM",
+   "code": [
+    {
+     "code": "BRKM3"
+    },
+    {
+     "code": "BRKM5"
+    },
+    {
+     "code": "BRKM6"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "56",
+   "name": "BR MALLS PAR",
+   "name_url": "https://www.ivalor.com.br/empresas/BRML",
+   "code": [
+    {
+     "code": "BRML3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "57",
+   "name": "BR PROPERT",
+   "name_url": "https://www.ivalor.com.br/empresas/BRPR",
+   "code": [
+    {
+     "code": "BRPR3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "58",
+   "name": "BRQ",
+   "name_url": "https://www.ivalor.com.br/empresas/BRQB",
+   "code": [
+    {
+     "code": "BRQB3"
+    }
+   ],
+   "category": "-",
+   "sector": "Tecnologia da Informação",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=31"
+  },
+  {
+   "number": "59",
+   "name": "BANRISUL",
+   "name_url": "https://www.ivalor.com.br/empresas/BRSR",
+   "code": [
+    {
+     "code": "BRSR3"
+    },
+    {
+     "code": "BRSR5"
+    },
+    {
+     "code": "BRSR6"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "60",
+   "name": "BIOSEV",
+   "name_url": "https://www.ivalor.com.br/empresas/BSEV",
+   "code": [
+    {
+     "code": "BSEV3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Consumo não Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=24"
+  }
+ ]
+}

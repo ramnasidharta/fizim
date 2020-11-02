@@ -1,0 +1,217 @@
+{
+ "companies": [
+  {
+   "number": "166",
+   "name": "BR HOME",
+   "name_url": "https://www.ivalor.com.br/empresas/HCBR",
+   "code": [
+    {
+     "code": "HCBR3"
+    }
+   ],
+   "category": "-",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "167",
+   "name": "HERCULES",
+   "name_url": "https://www.ivalor.com.br/empresas/HETA",
+   "code": [
+    {
+     "code": "HETA3"
+    },
+    {
+     "code": "HETA4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "168",
+   "name": "CIA HERING",
+   "name_url": "https://www.ivalor.com.br/empresas/HGTX",
+   "code": [
+    {
+     "code": "HGTX3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "169",
+   "name": "HOTEIS OTHON",
+   "name_url": "https://www.ivalor.com.br/empresas/HOOT",
+   "code": [
+    {
+     "code": "HOOT3"
+    },
+    {
+     "code": "HOOT4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "170",
+   "name": "HYPERA",
+   "name_url": "https://www.ivalor.com.br/empresas/HYPE",
+   "code": [
+    {
+     "code": "HYPE3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "171",
+   "name": "INDUSVAL",
+   "name_url": "https://www.ivalor.com.br/empresas/IDVL",
+   "code": [
+    {
+     "code": "IDVL3"
+    },
+    {
+     "code": "IDVL4"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "172",
+   "name": "IGB S/A",
+   "name_url": "https://www.ivalor.com.br/empresas/IGBR",
+   "code": [
+    {
+     "code": "IGBR3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "173",
+   "name": "IGUA SA",
+   "name_url": "https://www.ivalor.com.br/empresas/IGSN",
+   "code": [
+    {
+     "code": "IGSN3"
+    }
+   ],
+   "category": "-",
+   "sector": "Utilidade Pública",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=25"
+  },
+  {
+   "number": "174",
+   "name": "IGUATEMI",
+   "name_url": "https://www.ivalor.com.br/empresas/IGTA",
+   "code": [
+    {
+     "code": "IGTA3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "175",
+   "name": "INEPAR",
+   "name_url": "https://www.ivalor.com.br/empresas/INEP",
+   "code": [
+    {
+     "code": "INEP3"
+    },
+    {
+     "code": "INEP4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "176",
+   "name": "INTER SA",
+   "name_url": "https://www.ivalor.com.br/empresas/INNT",
+   "code": [
+    {
+     "code": "INNT3"
+    }
+   ],
+   "category": "-",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "177",
+   "name": "IRBBRASIL RE",
+   "name_url": "https://www.ivalor.com.br/empresas/IRBR",
+   "code": [
+    {
+     "code": "IRBR3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "178",
+   "name": "ITAUTEC",
+   "name_url": "https://www.ivalor.com.br/empresas/ITEC",
+   "code": [
+    {
+     "code": "ITEC3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Tecnologia da Informação",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=31"
+  },
+  {
+   "number": "179",
+   "name": "ITAUSA",
+   "name_url": "https://www.ivalor.com.br/empresas/ITSA",
+   "code": [
+    {
+     "code": "ITSA3"
+    },
+    {
+     "code": "ITSA4"
+    }
+   ],
+   "category": "Big Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "180",
+   "name": "ITAUUNIBANCO",
+   "name_url": "https://www.ivalor.com.br/empresas/ITUB",
+   "code": [
+    {
+     "code": "ITUB3"
+    },
+    {
+     "code": "ITUB4"
+    }
+   ],
+   "category": "Mega Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  }
+ ]
+}

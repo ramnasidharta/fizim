@@ -1,6 +1,6 @@
 import sys
-from remote_ckan_interface import CvmPlatformClient
-from local_ckan_interface import LocalCkanInterface
+from cvm.cvm_client import CvmPlatformClient
+from cvm.local_ckan_interface import LocalCkanInterface
 
 import pprint as pp
 import utils
@@ -37,7 +37,8 @@ def main():
         if len(args) == 3:
             return utils.clean_scrapped_companies(source_file=args[2])
         if len(args) == 4:
-            return utils.clean_scrapped_companies(source_file=args[2], target_file=args[3])
+            return utils.clean_scrapped_companies(source_file=args[2],
+                                                  target_file=args[3])
         else:
             return utils.clean_scrapped_companies()
     elif command == 'companies':
@@ -70,8 +71,8 @@ def cvm_cmd(args):
         cvm_client.datasets_dir = datasets_dir
         cvm_client.download_pkgs(pkgs)
 
-        #if ('--persist' in args) or ('-p' in args):
-        #    LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
+        # if ('--persist' in args) or ('-p' in args):
+        #     LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
 
     elif command == 'list':
         if len(args) > 1 and args[1] == '-c':

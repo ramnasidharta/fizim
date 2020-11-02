@@ -1,0 +1,220 @@
+{
+ "companies": [
+  {
+   "number": "331",
+   "name": "UNICASA",
+   "name_url": "https://www.ivalor.com.br/empresas/UCAS",
+   "code": [
+    {
+     "code": "UCAS3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "332",
+   "name": "ULTRAPAR",
+   "name_url": "https://www.ivalor.com.br/empresas/UGPA",
+   "code": [
+    {
+     "code": "UGPA3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Petróleo. Gás e Biocombustíveis",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=30"
+  },
+  {
+   "number": "333",
+   "name": "UNIPAR",
+   "name_url": "https://www.ivalor.com.br/empresas/UNIP",
+   "code": [
+    {
+     "code": "UNIP3"
+    },
+    {
+     "code": "UNIP5"
+    },
+    {
+     "code": "UNIP6"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "334",
+   "name": "USIMINAS",
+   "name_url": "https://www.ivalor.com.br/empresas/USIM",
+   "code": [
+    {
+     "code": "USIM3"
+    },
+    {
+     "code": "USIM5"
+    },
+    {
+     "code": "USIM6"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "335",
+   "name": "VALE",
+   "name_url": "https://www.ivalor.com.br/empresas/VALE",
+   "code": [
+    {
+     "code": "VALE3"
+    }
+   ],
+   "category": "Mega Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "336",
+   "name": "VIVARA S.A.",
+   "name_url": "https://www.ivalor.com.br/empresas/VIVA",
+   "code": [
+    {
+     "code": "VIVA3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "337",
+   "name": "VIVER",
+   "name_url": "https://www.ivalor.com.br/empresas/VIVR",
+   "code": [
+    {
+     "code": "VIVR3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "338",
+   "name": "TELEF BRASIL",
+   "name_url": "https://www.ivalor.com.br/empresas/VIVT",
+   "code": [
+    {
+     "code": "VIVT3"
+    },
+    {
+     "code": "VIVT4"
+    }
+   ],
+   "category": "Big Cap",
+   "sector": "Comunicações",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=35"
+  },
+  {
+   "number": "339",
+   "name": "VALID",
+   "name_url": "https://www.ivalor.com.br/empresas/VLID",
+   "code": [
+    {
+     "code": "VLID3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "340",
+   "name": "FER C ATLANT",
+   "name_url": "https://www.ivalor.com.br/empresas/VSPT",
+   "code": [
+    {
+     "code": "VSPT3"
+    },
+    {
+     "code": "VSPT4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "341",
+   "name": "VULCABRAS",
+   "name_url": "https://www.ivalor.com.br/empresas/VULC",
+   "code": [
+    {
+     "code": "VULC3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "342",
+   "name": "VIAVAREJO",
+   "name_url": "https://www.ivalor.com.br/empresas/VVAR",
+   "code": [
+    {
+     "code": "VVAR3"
+    }
+   ],
+   "category": "Big Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "343",
+   "name": "WEG",
+   "name_url": "https://www.ivalor.com.br/empresas/WEGE",
+   "code": [
+    {
+     "code": "WEGE3"
+    }
+   ],
+   "category": "Mega Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "344",
+   "name": "WHIRLPOOL",
+   "name_url": "https://www.ivalor.com.br/empresas/WHRL",
+   "code": [
+    {
+     "code": "WHRL3"
+    },
+    {
+     "code": "WHRL4"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "345",
+   "name": "WIZ S.A.",
+   "name_url": "https://www.ivalor.com.br/empresas/WIZS",
+   "code": [
+    {
+     "code": "WIZS3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  }
+ ]
+}

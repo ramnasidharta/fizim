@@ -1,0 +1,211 @@
+{
+ "companies": [
+  {
+   "number": "136",
+   "name": "ETERNIT",
+   "name_url": "https://www.ivalor.com.br/empresas/ETER",
+   "code": [
+    {
+     "code": "ETER3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "137",
+   "name": "EUCATEX",
+   "name_url": "https://www.ivalor.com.br/empresas/EUCA",
+   "code": [
+    {
+     "code": "EUCA3"
+    },
+    {
+     "code": "EUCA4"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "138",
+   "name": "EVEN",
+   "name_url": "https://www.ivalor.com.br/empresas/EVEN",
+   "code": [
+    {
+     "code": "EVEN3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "139",
+   "name": "EZTEC",
+   "name_url": "https://www.ivalor.com.br/empresas/EZTC",
+   "code": [
+    {
+     "code": "EZTC3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "140",
+   "name": "FERBASA",
+   "name_url": "https://www.ivalor.com.br/empresas/FESA",
+   "code": [
+    {
+     "code": "FESA3"
+    },
+    {
+     "code": "FESA4"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "141",
+   "name": "FER HERINGER",
+   "name_url": "https://www.ivalor.com.br/empresas/FHER",
+   "code": [
+    {
+     "code": "FHER3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "142",
+   "name": "INVEST BEMGE",
+   "name_url": "https://www.ivalor.com.br/empresas/FIGE",
+   "code": [
+    {
+     "code": "FIGE3"
+    },
+    {
+     "code": "FIGE4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Outros",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=34"
+  },
+  {
+   "number": "143",
+   "name": "FLEX S/A",
+   "name_url": "https://www.ivalor.com.br/empresas/FLEX",
+   "code": [
+    {
+     "code": "FLEX3"
+    }
+   ],
+   "category": "-",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "144",
+   "name": "FLEURY",
+   "name_url": "https://www.ivalor.com.br/empresas/FLRY",
+   "code": [
+    {
+     "code": "FLRY3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "145",
+   "name": "FINANSINOS",
+   "name_url": "https://www.ivalor.com.br/empresas/FNCN",
+   "code": [
+    {
+     "code": "FNCN3"
+    }
+   ],
+   "category": "-",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "146",
+   "name": "FRAS-LE",
+   "name_url": "https://www.ivalor.com.br/empresas/FRAS",
+   "code": [
+    {
+     "code": "FRAS3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "147",
+   "name": "METALFRIO",
+   "name_url": "https://www.ivalor.com.br/empresas/FRIO",
+   "code": [
+    {
+     "code": "FRIO3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "148",
+   "name": "POMIFRUTAS",
+   "name_url": "https://www.ivalor.com.br/empresas/FRTA",
+   "code": [
+    {
+     "code": "FRTA3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Consumo não Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=24"
+  },
+  {
+   "number": "149",
+   "name": "BIOTOSCANA",
+   "name_url": "https://www.ivalor.com.br/empresas/GBIO",
+   "code": [
+    {
+     "code": "GBIO33"
+    }
+   ],
+   "category": "-",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "150",
+   "name": "GER PARANAP",
+   "name_url": "https://www.ivalor.com.br/empresas/GEPA",
+   "code": [
+    {
+     "code": "GEPA3"
+    },
+    {
+     "code": "GEPA4"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Utilidade Pública",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=25"
+  }
+ ]
+}

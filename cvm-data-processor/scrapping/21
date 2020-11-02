@@ -1,0 +1,220 @@
+{
+ "companies": [
+  {
+   "number": "316",
+   "name": "TEKA",
+   "name_url": "https://www.ivalor.com.br/empresas/TEKA",
+   "code": [
+    {
+     "code": "TEKA3"
+    },
+    {
+     "code": "TEKA4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "317",
+   "name": "TELEBRAS",
+   "name_url": "https://www.ivalor.com.br/empresas/TELB",
+   "code": [
+    {
+     "code": "TELB3"
+    },
+    {
+     "code": "TELB4"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Comunicações",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=35"
+  },
+  {
+   "number": "318",
+   "name": "TENDA",
+   "name_url": "https://www.ivalor.com.br/empresas/TEND",
+   "code": [
+    {
+     "code": "TEND3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "319",
+   "name": "TERRA SANTA",
+   "name_url": "https://www.ivalor.com.br/empresas/TESA",
+   "code": [
+    {
+     "code": "TESA3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Consumo não Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=24"
+  },
+  {
+   "number": "320",
+   "name": "TEGMA",
+   "name_url": "https://www.ivalor.com.br/empresas/TGMA",
+   "code": [
+    {
+     "code": "TGMA3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "321",
+   "name": "AES TIETE E",
+   "name_url": "https://www.ivalor.com.br/empresas/TIET",
+   "code": [
+    {
+     "code": "TIET11"
+    },
+    {
+     "code": "TIET3"
+    },
+    {
+     "code": "TIET4"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Utilidade Pública",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=25"
+  },
+  {
+   "number": "322",
+   "name": "TIM PART S/A",
+   "name_url": "https://www.ivalor.com.br/empresas/TIMP",
+   "code": [
+    {
+     "code": "TIMP3"
+    }
+   ],
+   "category": "Big Cap",
+   "sector": "Comunicações",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=35"
+  },
+  {
+   "number": "323",
+   "name": "TEKNO",
+   "name_url": "https://www.ivalor.com.br/empresas/TKNO",
+   "code": [
+    {
+     "code": "TKNO3"
+    },
+    {
+     "code": "TKNO4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "324",
+   "name": "TOTVS",
+   "name_url": "https://www.ivalor.com.br/empresas/TOTS",
+   "code": [
+    {
+     "code": "TOTS3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Tecnologia da Informação",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=31"
+  },
+  {
+   "number": "325",
+   "name": "TECTOY",
+   "name_url": "https://www.ivalor.com.br/empresas/TOYB",
+   "code": [
+    {
+     "code": "TOYB3"
+    },
+    {
+     "code": "TOYB4"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "326",
+   "name": "TRIUNFO PART",
+   "name_url": "https://www.ivalor.com.br/empresas/TPIS",
+   "code": [
+    {
+     "code": "TPIS3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  },
+  {
+   "number": "327",
+   "name": "TRISUL",
+   "name_url": "https://www.ivalor.com.br/empresas/TRIS",
+   "code": [
+    {
+     "code": "TRIS3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "328",
+   "name": "TRAN PAULIST",
+   "name_url": "https://www.ivalor.com.br/empresas/TRPL",
+   "code": [
+    {
+     "code": "TRPL3"
+    },
+    {
+     "code": "TRPL4"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Utilidade Pública",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=25"
+  },
+  {
+   "number": "329",
+   "name": "TARPON INV",
+   "name_url": "https://www.ivalor.com.br/empresas/TRPN",
+   "code": [
+    {
+     "code": "TRPN3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Financeiro e Outros",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=1"
+  },
+  {
+   "number": "330",
+   "name": "TUPY",
+   "name_url": "https://www.ivalor.com.br/empresas/TUPY",
+   "code": [
+    {
+     "code": "TUPY3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Bens Industriais",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=26"
+  }
+ ]
+}

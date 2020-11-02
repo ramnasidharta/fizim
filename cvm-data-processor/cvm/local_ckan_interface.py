@@ -7,7 +7,7 @@ API_KEY = 'cf0ece1e-854c-4a81-b2c9-af1bb794af3e'
 
 class LocalCkanInterface:
 
-    DATASETS_DIR = './datasets'
+    DATASETS_DIR = '../datasets'
 
     def __init__(self, ckan_url='http://ckan:5000', datasets_dir=DATASETS_DIR):
         self.DATASETS_DIR = datasets_dir

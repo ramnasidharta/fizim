@@ -29,7 +29,7 @@ class CvmPlatformClient:
     """
 
     CVM_URL = 'http://dados.cvm.gov.br'
-    DATASETS_DIR = './datasets'
+    DATASETS_DIR = '../datasets'
 
     def __init__(self, local_datasets_dir='./datasets'):
         """Default constructor that initializes an instance of CKAN.

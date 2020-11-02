@@ -1,0 +1,214 @@
+{
+ "companies": [
+  {
+   "number": "241",
+   "name": "OI",
+   "name_url": "https://www.ivalor.com.br/empresas/OIBR",
+   "code": [
+    {
+     "code": "OIBR3"
+    },
+    {
+     "code": "OIBR4"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Comunicações",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=35"
+  },
+  {
+   "number": "242",
+   "name": "OMEGA GER",
+   "name_url": "https://www.ivalor.com.br/empresas/OMGE",
+   "code": [
+    {
+     "code": "OMGE3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Utilidade Pública",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=25"
+  },
+  {
+   "number": "243",
+   "name": "OSX BRASIL",
+   "name_url": "https://www.ivalor.com.br/empresas/OSXB",
+   "code": [
+    {
+     "code": "OSXB3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Petróleo. Gás e Biocombustíveis",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=30"
+  },
+  {
+   "number": "244",
+   "name": "PACIFIC RDSL",
+   "name_url": "https://www.ivalor.com.br/empresas/PACF",
+   "code": [
+    {
+     "code": "PACF3"
+    }
+   ],
+   "category": "-",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "245",
+   "name": "IHPARDINI",
+   "name_url": "https://www.ivalor.com.br/empresas/PARD",
+   "code": [
+    {
+     "code": "PARD3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "246",
+   "name": "PANATLANTICA",
+   "name_url": "https://www.ivalor.com.br/empresas/PATI",
+   "code": [
+    {
+     "code": "PATI3"
+    },
+    {
+     "code": "PATI4"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Materiais Básicos",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=29"
+  },
+  {
+   "number": "247",
+   "name": "P.ACUCAR-CBD",
+   "name_url": "https://www.ivalor.com.br/empresas/PCAR",
+   "code": [
+    {
+     "code": "PCAR3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Consumo não Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=24"
+  },
+  {
+   "number": "248",
+   "name": "PDG REALT",
+   "name_url": "https://www.ivalor.com.br/empresas/PDGR",
+   "code": [
+    {
+     "code": "PDGR3"
+    }
+   ],
+   "category": "Nano Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "249",
+   "name": "PADTEC",
+   "name_url": "https://www.ivalor.com.br/empresas/PDTC",
+   "code": [
+    {
+     "code": "PDTC3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "250",
+   "name": "PAR AL BAHIA",
+   "name_url": "https://www.ivalor.com.br/empresas/PEAB",
+   "code": [
+    {
+     "code": "PEAB3"
+    },
+    {
+     "code": "PEAB4"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  },
+  {
+   "number": "251",
+   "name": "PETROBRAS",
+   "name_url": "https://www.ivalor.com.br/empresas/PETR",
+   "code": [
+    {
+     "code": "PETR3"
+    },
+    {
+     "code": "PETR4"
+    }
+   ],
+   "category": "Mega Cap",
+   "sector": "Petróleo. Gás e Biocombustíveis",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=30"
+  },
+  {
+   "number": "252",
+   "name": "PETZ",
+   "name_url": "https://www.ivalor.com.br/empresas/PETZ",
+   "code": [
+    {
+     "code": "PETZ3"
+    }
+   ],
+   "category": "Mid Cap",
+   "sector": "Consumo Cíclico",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=27"
+  },
+  {
+   "number": "253",
+   "name": "PROFARMA",
+   "name_url": "https://www.ivalor.com.br/empresas/PFRM",
+   "code": [
+    {
+     "code": "PFRM3"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "254",
+   "name": "PAGUE MENOS",
+   "name_url": "https://www.ivalor.com.br/empresas/PGMN",
+   "code": [
+    {
+     "code": "PGMN3"
+    }
+   ],
+   "category": "Small Cap",
+   "sector": "Saúde",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=23"
+  },
+  {
+   "number": "255",
+   "name": "PINE",
+   "name_url": "https://www.ivalor.com.br/empresas/PINE",
+   "code": [
+    {
+     "code": "PINE3"
+    },
+    {
+     "code": "PINE4"
+    }
+   ],
+   "category": "Micro Cap",
+   "sector": "Financeiro",
+   "sector_url": "https://www.ivalor.com.br/empresas/listagem?setor=33"
+  }
+ ]
+}
