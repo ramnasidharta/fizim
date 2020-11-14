@@ -35,7 +35,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/fizz
     username: fizz
-    password: password
+    password:
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -101,7 +101,7 @@ jhipster:
         # - In the JHipster Registry (which includes a Spring Cloud Config server)
         # - In a separate `application-prod.yml` file, in the same folder as your executable JAR file
         # - In the `JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET` environment variable
-        base64-secret: ZTU4ZGE5ZWIxMTc0ZDgwMzljMzczOTBkMDYxN2I0NWY5ZGQyMDRmOTIyNmMwYjQ3M2Y0OTI2MTM4MjBjOGNkNTg5ODIyYTNiMDU3NjYyZGQzODg0YmNlMTdlNDk1ZmM1ZTlhMTg4ZWE2MzRlY2NkODYwYjBjMDQzNzgyNWM4ZmY=
+        base64-secret: MzM1MTI5ZGM0NzdmOTI4YTVhYzcxOGU2NTNlNDI4NTYzZGU5YTcyYzg2YjYyYWRmODlhZTFhOWVkMTU0NTk1MTkzYzBjNTlhYmZkODI1OWNhM2JjYmFmYzliZThhOTUzYjVjY2I0MWM3NDFmMDgzZjkwMGYzZmI3MTc5YWMyNzI=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000
