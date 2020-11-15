@@ -3,9 +3,11 @@ import sys
 import re
 import requests
 import logging
+
 from pathlib import Path
-from ckanapi import RemoteCKAN
 from requests import Response
+
+from ckanapi import RemoteCKAN
 
 LOG = logging.getLogger('CvmPlatformClient')
 LOG.setLevel(logging.DEBUG)
@@ -24,7 +26,7 @@ def _save_resource_stream(response: Response, path: str):
             f.write(chunk)
 
 
-class CvmPlatformClient:
+class CvmClient:
     """
     Class used to interact with the remote CVM platform (http://dados.cvm.gov.br)
 
@@ -54,9 +56,13 @@ class CvmPlatformClient:
         if datasets_dir:
             self.datasets_dir = datasets_dir
         else:
-            self.datasets_dir = os.environ['DATASETS']
+            try:
+                self.datasets_dir = os.environ['DATASETS']
+            except KeyError:
+                current_dir = Path().absolute()
+                self.datasets_dir = str(current_dir.parent) + '/datasets'
 
-        self.ckan = RemoteCKAN(CvmPlatformClient.CVM_URL)
+        self.ckan = RemoteCKAN(CvmClient.CVM_URL)
         self.local_files = {}
 
     def list_pkgs(self, pattern: str = None) -> list:

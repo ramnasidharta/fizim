@@ -1,6 +1,7 @@
 import sys
-from cvm.cvm_client import CvmPlatformClient
+from cvm.CvmClient import CvmClient
 from cvm.local_ckan_interface import LocalCkanInterface
+from cvm.processing import Normalizer
 
 import pprint as pp
 import utils
@@ -18,6 +19,9 @@ def main():
              instance.
          [-d, --dataset <dataset>]
              Specify the directory where to store all data, default is "./datasets".
+    normalize-all
+             processes all datasets of financial balances so they are transformed
+             into a more convenient format for reading, persisting, etc.
     list [-c]
              List all datasets available in CVM platform. Adding -c will show only
              datasets of public companies.
@@ -59,9 +63,9 @@ def main():
 
 def cvm_cmd(args):
     command = args[0]
-    cvm_client = CvmPlatformClient()
 
     if command == 'get':
+        cvm_client = CvmClient()
         pkgs = cvm_client.list_pkgs(pattern='cia_aberta.+')
 
         print('Datasets of public companies:')
@@ -73,10 +77,14 @@ def cvm_cmd(args):
         #     LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
 
     elif command == 'list':
+        cvm_client = CvmClient()
         if len(args) > 1 and args[1] == '-c':
             _pprint(cvm_client.list_pkgs(pattern='cia_aberta.+'))
         else:
             _pprint(cvm_client.list_pkgs())
+
+    elif command == 'normalize-all':
+        Normalizer.Normalizer().normalize_all()
 
 
 def read_datasets_dir_option(args, remote_ckan):
@@ -88,7 +96,7 @@ def read_datasets_dir_option(args, remote_ckan):
     elif datasets_long_option:
         datasets_dir = ''.join(args).split('--datasets')[1].split(' ')[0]
     elif remote_ckan:
-        datasets_dir = CvmPlatformClient.DATASETS_DIR
+        datasets_dir = CvmClient.DATASETS_DIR
     else:
         datasets_dir = LocalCkanInterface.DATASETS_DIR
 
