@@ -47,6 +47,7 @@ public class CacheConfiguration {
             createCache(cm, com.modsim.fizz.domain.User.class.getName());
             createCache(cm, com.modsim.fizz.domain.Authority.class.getName());
             createCache(cm, com.modsim.fizz.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.modsim.fizz.domain.Balance.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

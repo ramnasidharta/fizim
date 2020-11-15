@@ -1,0 +1,20 @@
+@readOnly
+entity Balance {
+  	cnpj String,
+	  name String,
+    cvmCode Integer,
+    category String,
+    subcategory String,
+    financialStatement String,
+    finalAccountingDate LocalDate,
+    value Double,
+}
+
+// Set pagination options
+paginate Balance with pagination
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all
+service Balance with serviceImpl

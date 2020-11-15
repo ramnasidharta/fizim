@@ -1,0 +1,49 @@
+{
+  "name": "Balance",
+  "fields": [
+    {
+      "fieldName": "cnpj",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cvmCode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "subcategory",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "financialStatement",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "finalAccountingDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201114170754",
+  "entityTableName": "balance",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": true,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
