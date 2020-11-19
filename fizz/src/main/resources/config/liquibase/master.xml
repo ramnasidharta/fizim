@@ -20,4 +20,5 @@
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 
     <include file="config/liquibase/changelog/202011141750_add_auto_increment_to_balance_pk.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/202011172220_add_entity_Company.xml" relativeToChangelogFile="false"/>
 </databaseChangeLog>
