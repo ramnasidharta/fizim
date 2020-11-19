@@ -93,7 +93,8 @@ class Exporter:
             This argument says the name of such container.
         """
         data_dir = self._datasets_dir + '/registers'
-        register_file = os.listdir(data_dir)[0]
+        register_file = list(filter(lambda f: f.endswith('.csv'),
+                                    os.listdir(data_dir)))[0]
 
         if dbcontainer:
             # If the database is running in a docker container, we have to
@@ -114,8 +115,8 @@ class Exporter:
         try:
             LOG.debug('Exporting data from file %s to database...',
                       register_file)
-            self._export_normalized(data_dir + '/' + register_file,
-                                    connection)
+            self._export_company_registers(data_dir + '/' + register_file,
+                                           connection)
         except Exception as e:
             LOG.error('Error "%s" when trying to export file %s', str(e),
                       register_file)
@@ -142,16 +143,15 @@ class Exporter:
     def _export_company_registers(registers_fpath, connection):
         query_str = f'''
         COPY Company(
-            cvm_code, cnpj, social_denomination, commercial_denomination,
-            register_date, constitution_date, cancellation_date,
-            cancellation_reason, situation, situation_start_date, sector,
-            market, category, category_start_date, issuer_situation,
-            issuer_situation_start_date, addr_type, public_space,
-            addr_complement, neighborhood, county, st, country, zip, std, phone,
-            email, resp_type, resp_name, resp_acting_start_date,
-            resp_public_space, resp_addr_complement, resp_neighbourhood,
-            resp_county, resp_st, resp_country, resp_zip, resp_std, resp_phone,
-            resp_email, cnpj_auditor, auditor
+            cnpj, social_denomination, commercial_denomination, register_date,
+            constitution_date, cancellation_date, cancellation_reason,
+            situation, situation_start_date, cvm_code, sector, market, category,
+            category_start_date, issuer_situation, issuer_situation_start_date,
+            addr_type, public_space, addr_complement, neighborhood, county, st,
+            country, zip, std, phone, email, resp_type, resp_name,
+            resp_acting_start_date, resp_public_space, resp_addr_complement,
+            resp_neighbourhood, resp_county, resp_st, resp_country, resp_zip,
+            resp_std, resp_phone, resp_email, cnpj_auditor, auditor
         )
         FROM '{registers_fpath}'
         DELIMITER ';'
