@@ -1,7 +1,7 @@
 import sys
 from cvm.CvmClient import CvmClient
 from cvm.local_ckan_interface import LocalCkanInterface
-from cvm.processing import Normalizer
+from cvm.processing import Normalizer, CompaniesRegisterNormalizer
 
 import pprint as pp
 import utils
@@ -22,6 +22,10 @@ def main():
     normalize-all
              processes all datasets of financial balances so they are transformed
              into a more convenient format for reading, persisting, etc.
+    normalize-registers
+             processes the datasets of companies register so they are
+             transformed into a more convenient format for reading, persisting,
+             etc.
     list [-c]
              List all datasets available in CVM platform. Adding -c will show only
              datasets of public companies.
@@ -75,16 +79,16 @@ def cvm_cmd(args):
 
         # if ('--persist' in args) or ('-p' in args):
         #     LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
-
     elif command == 'list':
         cvm_client = CvmClient()
         if len(args) > 1 and args[1] == '-c':
             _pprint(cvm_client.list_pkgs(pattern='cia_aberta.+'))
         else:
             _pprint(cvm_client.list_pkgs())
-
     elif command == 'normalize-all':
         Normalizer.Normalizer().normalize_all()
+    elif command == 'normalize-registers':
+        CompaniesRegisterNormalizer.CompaniesRegisterNormalizer().normalize_all()
 
 
 def read_datasets_dir_option(args, remote_ckan):
