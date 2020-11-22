@@ -335,6 +335,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>9</source>
+                    <target>9</target>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -462,6 +466,11 @@
                                 <groupId>org.glassfish.jaxb</groupId>
                                 <artifactId>jaxb-runtime</artifactId>
                                 <version>${jaxb-runtime.version}</version>
+                            </path>
+                            <path>
+                                <groupId>org.projectlombok</groupId>
+                                <artifactId>lombok</artifactId>
+                                <version>1.18.16</version>
                             </path>
                             <!-- jhipster-needle-maven-add-annotation-processor -->
                         </annotationProcessorPaths>
