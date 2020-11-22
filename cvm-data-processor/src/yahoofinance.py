@@ -1,5 +1,6 @@
 import yfinance
-import utils
+from src import utils
+
 
 def current_price(companies: dict):
     current_price_list = []

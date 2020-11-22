@@ -1,14 +1,11 @@
 import sys
-from cvm.CvmClient import CvmClient
-from cvm.local_ckan_interface import LocalCkanInterface
-from cvm.processing.normalization import BalancesNormalizer,\
+import pprint as pp
+
+from src.cvm.clients import CvmClient, LocalCkanClient
+from src.cvm.normalization import BalancesNormalizer,\
     CompaniesRegisterNormalizer
 
-from exporter import Exporter
-
-import pprint as pp
-import utils
-import yahoofinance
+from src import utils, yahoofinance
 
 
 def main():
@@ -21,7 +18,7 @@ def main():
              directory. If including -p, such data will be persisted to the local CKAN
              instance.
          [-d, --dataset <dataset>]
-             Specify the directory where to store all data, default is "./datasets".
+             Specify the directory where to store all data, default is "../datasets".
     normalize-balances
              processes all datasets of financial balances so they are transformed
              into a more convenient format for reading, persisting, etc.
@@ -67,7 +64,7 @@ def main():
                 print('Not implemented yet')
                 return
     elif command == 'export-all':
-        Exporter().export_all_balances()
+        utils.Exporter().export_all_balances()
 
     print('Unknown command. Run `py main.py help` to see options.')
 
@@ -98,7 +95,7 @@ def cvm_cmd(args):
         CompaniesRegisterNormalizer().normalize_all()
 
 
-def read_datasets_dir_option(args, remote_ckan):
+def read_datasets_dir_option(args):
     datasets_long_option = '--datasets' in args
     datasets_short_option = '-d' in args
 
@@ -106,10 +103,8 @@ def read_datasets_dir_option(args, remote_ckan):
         datasets_dir = ''.join(args).split('-d')[1].split(' ')[0]
     elif datasets_long_option:
         datasets_dir = ''.join(args).split('--datasets')[1].split(' ')[0]
-    elif remote_ckan:
-        datasets_dir = CvmClient.DATASETS_DIR
     else:
-        datasets_dir = LocalCkanInterface.DATASETS_DIR
+        datasets_dir = '../datasets'
 
     return datasets_dir.strip()
 

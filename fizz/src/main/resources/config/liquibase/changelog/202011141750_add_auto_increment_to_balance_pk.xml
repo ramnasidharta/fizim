@@ -11,7 +11,7 @@
         <addAutoIncrement columnName="id"
                           incrementBy="1"
                           columnDataType="bigint"
-                          startWith="20"
+                          startWith="100"
                           generationType="ALWAYS"
                           tableName="balance"/>
     </changeSet>

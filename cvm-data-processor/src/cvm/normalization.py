@@ -120,7 +120,7 @@ class BalancesNormalizer:
         self.normalize_dataset(self.datasets_dir + '/cia_aberta-doc-dfp')
         self.normalize_dataset(self.datasets_dir + '/cia_aberta-doc-itr')
 
-        os.chdir('../')
+        os.chdir('/')
 
     def normalize_dataset(self, datasets_dir_path: str):
         """Normalizes all data of the given CVM dataset.
@@ -338,7 +338,7 @@ class CompaniesRegisterNormalizer:
 
         self.normalize_dataset(self.datasets_dir + '/cia_aberta-cad')
 
-        os.chdir('../')
+        os.chdir('/')
 
     def normalize_dataset(self, datasets_dir_path: str):
         LOG.info("Start processing dataset %s.", _short(datasets_dir_path))
