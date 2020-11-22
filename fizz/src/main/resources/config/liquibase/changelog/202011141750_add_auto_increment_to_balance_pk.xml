@@ -10,7 +10,7 @@
     <changeSet id="add-auto-increment-to-balance-pk" author="ramna">
         <addAutoIncrement columnName="id"
                           incrementBy="1"
-                          columnDataType="int"
+                          columnDataType="bigint"
                           startWith="20"
                           generationType="ALWAYS"
                           tableName="balance"/>
