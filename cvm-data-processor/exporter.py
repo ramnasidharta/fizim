@@ -17,8 +17,6 @@ LOG.addHandler(stdout_handler)
 def copy_dir_to_container(source_path, destine_path):
     os.chdir(os.path.dirname(source_path))
 
-    source = os.path.basename(source_path)
-
     LOG.debug('Copying files from to container %s...', destine_path)
     process = subprocess.Popen(f'docker cp {source_path} {destine_path}'.split())
     output_ignored, error_ignored = process.communicate()
@@ -46,7 +44,11 @@ class Exporter:
                 current_dir = Path().absolute()
                 self._datasets_dir = str(current_dir.parent) + '/datasets'
 
-    def export_all_normalized(self, dbcontainer='docker_fizz-postgresql_1'):
+    def export_all(self, dbcontainer='docker_fizz-postgresql_1'):
+        self.export_all_balances(dbcontainer)
+        self.export_all_company_registers(dbcontainer)
+
+    def export_all_balances(self, dbcontainer='docker_fizz-postgresql_1'):
         """Exports all data from self.normalized_dir to the application database
 
         Args:

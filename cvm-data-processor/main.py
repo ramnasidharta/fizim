@@ -1,7 +1,10 @@
 import sys
 from cvm.CvmClient import CvmClient
 from cvm.local_ckan_interface import LocalCkanInterface
-from cvm.processing import Normalizer, CompaniesRegisterNormalizer
+from cvm.processing.normalization import BalancesNormalizer,\
+    CompaniesRegisterNormalizer
+
+from exporter import Exporter
 
 import pprint as pp
 import utils
@@ -19,7 +22,7 @@ def main():
              instance.
          [-d, --dataset <dataset>]
              Specify the directory where to store all data, default is "./datasets".
-    normalize-all
+    normalize-balances
              processes all datasets of financial balances so they are transformed
              into a more convenient format for reading, persisting, etc.
     normalize-registers
@@ -33,6 +36,8 @@ def main():
             Clean the data from source_file (Parsehub scrapping file) and writes the result to
             target_file (files respectivelly default to "scrapping/b3_companies_scrapped.json"
             and scrapping/b3_companies.json).
+  export-all
+            Exports all cvm data to the database.
   yfinance  Get data from Yahoo Finance website.''')
 
         return
@@ -61,6 +66,8 @@ def main():
                 # TODO show prices from last update
                 print('Not implemented yet')
                 return
+    elif command == 'export-all':
+        Exporter().export_all_balances()
 
     print('Unknown command. Run `py main.py help` to see options.')
 
@@ -76,9 +83,6 @@ def cvm_cmd(args):
         _pprint(pkgs)
 
         cvm_client.download_pkgs(pkgs)
-
-        # if ('--persist' in args) or ('-p' in args):
-        #     LocalCkanInterface(datasets_dir=datasets_dir).persist_resources()
     elif command == 'list':
         cvm_client = CvmClient()
         if len(args) > 1 and args[1] == '-c':
@@ -86,9 +90,12 @@ def cvm_cmd(args):
         else:
             _pprint(cvm_client.list_pkgs())
     elif command == 'normalize-all':
-        Normalizer.Normalizer().normalize_all()
+        BalancesNormalizer().normalize_all()
+        CompaniesRegisterNormalizer().normalize_all()
+    elif command == 'normalize-balances':
+        BalancesNormalizer().normalize_all()
     elif command == 'normalize-registers':
-        CompaniesRegisterNormalizer.CompaniesRegisterNormalizer().normalize_all()
+        CompaniesRegisterNormalizer().normalize_all()
 
 
 def read_datasets_dir_option(args, remote_ckan):
