@@ -18,7 +18,7 @@ public class Company {
 
     private String cnpj;
     private String social_denomination;
-    private String comercial_denomination;
+    private String commercial_denomination;
     private LocalDate register_date;
     private LocalDate constitution_date;
     private LocalDate cancellation_date;
