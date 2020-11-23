@@ -42,6 +42,10 @@ class BalancesNormalizer:
 
     IGNORABLE_COLUMNS = ('DT_REFER', 'VERSAO', 'MOEDA', 'ESCALA_MOEDA',
                          'ORDEM_EXERC', 'CD_CONTA', 'ST_CONTA_FIXA')
+
+    # The columns of the original files are, excluding the ones defined in
+    # IGNORABLE_COLUMNS, the following:
+    #   CNPJ_CIA, DENOM_CIA, CD_CVM, GRUPO_DFP, DT_FIM_EXERC, DS_CONTA, VL_CONTA.
     NORMALIZED_COLUMNS = ('cnpj', 'name', 'cvm_code', 'category',
                           'final_accounting_date', 'financial_statement',
                           'subcategory', 'value')
@@ -270,13 +274,43 @@ class BalancesNormalizer:
     def _write_normalized(self, balance_sheet: pandas.DataFrame,
                           balance_sheet_name: str):
         destine_csv = f'{self.destine_dir}/{balance_sheet_name}'
-        balance_sheet.to_csv(destine_csv, sep=';', encoding='utf-8',
+        balance_sheet.to_csv(destine_csv, sep=', ', encoding='utf-8',
                              index=False)
 
 
 class CompaniesRegisterNormalizer:
+    """"
+    From the datasets of public companies available in the CVM platform
+    (cia_aberta-cad), one of them contains register data. This class performs
+    operations to organize that data into a convenient CSV, so they can be
+    persisted into a database more easily.
+
+    The dataset read by this class is stored in the filesystem and is supposed
+    supposed to be structured exactly as CvmClient obtained it from CVM. Such
+    structure is presented below.
+
+    After the normalization processing throughout a dataset, the normalized CSV
+    file are written to "registers/".
+
+    datasets/
+        cia_aberta-cad/
+            DADOS/
+                cad_cia_aberta.csv
+        registers/
+            cad_cia_aberta.csv
+    """
 
     IGNORABLE_COLUMNS = ('DDD_FAX', 'FAX', 'DDD_FAX_RESP', 'FAX_RESP')
+    
+    # The columns of the original file are, excluding the ones defined in
+    # IGNORABLE_COLUMNS, the following:
+    #   CNPJ_CIA, DENOM_SOCIAL, DENOM_COMERC, DT_REG, DT_CONST, DT_CANCEL,
+    #   MOTIVO_CANCEL, SIT, DT_INI_SIT, CD_CVM, SETOR_ATIV, TP_MERC, CATEG_REG,
+    #   DT_INI_CATEG, SIT_EMISSOR DT_INI_SIT_EMISSOR, TP_ENDER, LOGRADOURO,
+    #   COMPL, BAIRRO, MUN, UF, PAIS, CEP, DDD_TEL, TEL, EMAIL, TP_RESP, RESP,
+    #   DT_INI_RESP, LOGRADOURO_RESP, COMPL_RESP, BAIRRO_RESP, MUN_RESP,
+    #   UF_RESP, PAIS_RESP, CEP_RESP, DDD_TEL_RESP, TEL_RESP, EMAIL_RESP,
+    #   CNPJ_AUDITOR, AUDITOR
     NORMALIZED_COLUMNS = ('cnpj', 'social_denomination',
                           'commercial_denomination', 'register_date',
                           'constitution_date', 'cancellation_date',
@@ -330,6 +364,9 @@ class CompaniesRegisterNormalizer:
                 self._destine_dir = self.datasets_dir + '/registers'
 
     def normalize_all(self):
+        """Reads the file in self.datasets_dir/cia_aberta-cad/DADOS/ and normalizes
+        it, writing the result to self.datasets_dir/registers/.
+        """
         LOG.debug('Create %s directory.', self.destine_dir)
         Path(self.destine_dir).mkdir(parents=True, exist_ok=True)
 
@@ -355,6 +392,26 @@ class CompaniesRegisterNormalizer:
                  _short(data_dir_path))
 
     def _normalize_companies_register(self, register_fpath: str):
+        """Performs the normalization over the given registers file.
+
+        The normalization of a registers file consists of removing ignorable
+        columns, renaming the columns left, removing rows with the same cvm_code
+        and nullifying inconsistent values.
+
+        The file that comes from CVM has many inconsistencies. For instance,
+        there may be more than one row in which 'cvm_code' (or CD_CVM in the
+        original file). The last row with the same 'cvm_code' was frequently
+        identified as the most complete, so this code simply removes the others
+        and leave only the last one. Besides, there are many empty properties in
+        rows and some rows have numbers were it should be a date. Because such
+        data is supposed to be persisted into a database, this code simply
+        nullify inconsistent properties, although more elaborated heuristics
+        could be applied to "recover" some data.
+
+        Args:
+            register_fpath - the file path of a CSV file from CVM, which
+                contains registers of public companies.
+        """
         LOG.debug('Normalizing balance sheet %s.', _short(register_fpath))
         register = pandas.read_csv(register_fpath, delimiter=';',
                                    encoding='latin-1')
