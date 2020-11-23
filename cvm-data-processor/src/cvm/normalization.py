@@ -301,7 +301,7 @@ class CompaniesRegisterNormalizer:
     """
 
     IGNORABLE_COLUMNS = ('DDD_FAX', 'FAX', 'DDD_FAX_RESP', 'FAX_RESP')
-    
+
     # The columns of the original file are, excluding the ones defined in
     # IGNORABLE_COLUMNS, the following:
     #   CNPJ_CIA, DENOM_SOCIAL, DENOM_COMERC, DT_REG, DT_CONST, DT_CANCEL,

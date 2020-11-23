@@ -75,12 +75,16 @@ def get_companies(source: str = CLEANED_FILE) -> dict:
 
 
 def copy_dir_to_container(source_path, destine_path):
+    curr_path = Path().absolute()
+
     os.chdir(os.path.dirname(source_path))
 
     LOG.debug('Copying files from to container %s...', destine_path)
     process = subprocess.Popen(f'docker cp {source_path} {destine_path}'.split())
     output_ignored, error_ignored = process.communicate()
     LOG.debug('Finished copying files to container!')
+
+    os.chdir(curr_path)
 
 
 def tar_compress(fname):

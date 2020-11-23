@@ -64,7 +64,8 @@ def main():
                 print('Not implemented yet')
                 return
     elif command == 'export-all':
-        utils.Exporter().export_all_balances()
+        utils.Exporter().export_all()
+        return
 
     print('Unknown command. Run `py main.py help` to see options.')
 
