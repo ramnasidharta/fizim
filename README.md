@@ -65,12 +65,65 @@ application that is running at port 8090.
 Try this:
 
 Access http://localhost:8090 in your browser. Sign in as admin. Go to
-Administration > API. In the `companies-resource` API, write `ABERTO` in the
-`situation` parameter and click `execute` right below all the parameters. Down
-below you see the response, which looks like this:
+Administration > API. In the "companies-resource" API, click "Try it out" and
+write `ABERTO` in the `situation` parameter and click "Execute" right below all
+the parameters. Down below you see the response, which looks like this:
 
 ```json
-
+{
+  "content": [
+    {
+      "cvmCode": 922,
+      "cnpj": "04.902.979/0001-44",
+      "socialDenomination": "BANCO DA AMAZÔNIA S.A.",
+      "commercialDenomination": "BANCO DA AMAZONIA S.A.",
+      "registerDate": "1977-07-20",
+      "constitutionDate": "1942-07-09",
+      "cancellationDate": null,
+      "cancellationReason": null,
+      "situation": "ATIVO",
+      "situationStartDate": "1977-07-20",
+      "sector": "INTERMEDIAÇÃO FINANCEIRA",
+      "market": "BOLSA",
+      "category": "Categoria A",
+      "cnpjAuditor": "57.755.217/0001-29",
+      "auditor": "KPMG AUDITORES INDEPENDENTES"
+    },
+    {
+      "cvmCode": 20796,
+      "cnpj": "62.232.889/0001-90",
+      "socialDenomination": "BANCO DAYCOVAL S.A.",
+      "commercialDenomination": "BANCO DAYCOVAL S.A.",
+      "registerDate": "2007-06-27",
+      "constitutionDate": "1968-08-05",
+      "cancellationDate": null,
+      "cancellationReason": null,
+      "situation": "ATIVO",
+      "situationStartDate": "2007-06-27",
+      "sector": "BANCOS",
+      "market": "BOLSA",
+      "category": "Categoria B",
+      "cnpjAuditor": "49.928.567/0001-11",
+      "auditor": "DELOITTE TOUCHE TOHMATSU AUDITORES INDEPENDENTES"
+    },
+    {
+      "cvmCode": 1023,
+      "cnpj": "00.000.000/0001-91",
+      "socialDenomination": "BANCO DO BRASIL S.A.",
+      "commercialDenomination": "BANCO DO BRASIL S.A.",
+      "registerDate": "1977-07-20",
+      "constitutionDate": "1905-12-30",
+      "cancellationDate": null,
+      "cancellationReason": null,
+      "situation": "ATIVO",
+      "situationStartDate": "1977-07-20",
+      "sector": "BANCOS",
+      "market": "BOLSA",
+      "category": "Categoria A",
+      "cnpjAuditor": "57.755.217/0001-29",
+      "auditor": "KPMG AUDITORES INDEPENDENTES"
+    }
+]
 ```
 
 The `main.py` is a tool to help demonstrate the usage of the avaliable modules.
