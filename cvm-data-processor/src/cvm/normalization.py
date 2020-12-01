@@ -274,7 +274,7 @@ class BalancesNormalizer:
     def _write_normalized(self, balance_sheet: pandas.DataFrame,
                           balance_sheet_name: str):
         destine_csv = f'{self.destine_dir}/{balance_sheet_name}'
-        balance_sheet.to_csv(destine_csv, sep=', ', encoding='utf-8',
+        balance_sheet.to_csv(destine_csv, sep=';', encoding='utf-8',
                              index=False)
 
 
