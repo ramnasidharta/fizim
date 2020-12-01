@@ -10,8 +10,8 @@ from pathlib import Path
 import psycopg2
 
 
-SCRAPPED_FILE = 'scrapping/b3_companies_scrapped.json'
-CLEANED_FILE = 'scrapping/b3_companies.json'
+SCRAPPED_FILE = 'src/scrapping/b3_companies_scrapped.json'
+CLEANED_FILE = 'src/scrapping/b3_companies.json'
 
 LOG = logging.getLogger('utils')
 LOG.setLevel(logging.DEBUG)

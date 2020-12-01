@@ -3,8 +3,6 @@ import logging
 
 import yfinance
 
-import utils
-
 
 LOG = logging.getLogger('yahoofinance')
 LOG.setLevel(logging.DEBUG)
