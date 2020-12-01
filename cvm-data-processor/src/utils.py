@@ -175,7 +175,7 @@ class Exporter:
             # firstly copy the files from the local filesystem to the container.
             # Then the source of the files becomes the path within the
             # container.
-            container_dir = dbcontainer + ':/data/'
+            container_dir = dbcontainer + ':/data/normalized'
             self._copy_dir_to_container(data_dir, container_dir)
             data_dir = '/data/normalized'
 
@@ -217,7 +217,7 @@ class Exporter:
             # firstly copy the files from the local filesystem to the container.
             # Then the source of the files becomes the path within the
             # container.
-            container_dir = dbcontainer + ':/data/'
+            container_dir = dbcontainer + ':/data/registers'
             self._copy_dir_to_container(data_dir, container_dir)
             data_dir = '/data/registers'
 
