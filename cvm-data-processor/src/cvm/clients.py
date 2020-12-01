@@ -94,7 +94,7 @@ class CvmClient:
         Args:
             pkgs - a list with the names of the packages to download.
         """
-        LOG.info('Download resources from all FI datasources...')
+        LOG.info('Download resources from all CVM datasources...')
         for pkg in pkgs:
             self.download_resources(pkg)
 
