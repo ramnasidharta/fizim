@@ -11,6 +11,8 @@ docker = "4.3.1"
 psycopg2 = "2.8.6"
 ckanapi = "4.3"
 yfinance = "*"
+html5lib = "*"
+bs4 = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "6.1.2"
