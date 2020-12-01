@@ -5,7 +5,7 @@ from src.cvm.clients import CvmClient, LocalCkanClient
 from src.cvm.normalization import BalancesNormalizer,\
     CompaniesRegisterNormalizer
 
-from src import utils, yahoofinance
+from src import utils
 
 
 def main():
@@ -60,13 +60,8 @@ def main():
             _pprint(utils.get_companies())
             return
         elif '--previous-close' in args:
-            if '-u' in args:
-                _pprint(yahoofinance.current_price())
-                return
-            else:
-                # TODO show prices from last update
-                print('Not implemented yet')
-                return
+            _pprint(utils.current_price())
+            return
     elif command == 'export-all':
         utils.Exporter().export_all()
         return
