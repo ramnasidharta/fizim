@@ -74,19 +74,6 @@ def get_companies(source: str = CLEANED_FILE) -> dict:
     return companies
 
 
-def copy_dir_to_container(source_path, destine_path):
-    curr_path = Path().absolute()
-
-    os.chdir(os.path.dirname(source_path))
-
-    LOG.debug('Copying files from to container %s...', destine_path)
-    process = subprocess.Popen(f'docker cp {source_path} {destine_path}'.split())
-    output_ignored, error_ignored = process.communicate()
-    LOG.debug('Finished copying files to container!')
-
-    os.chdir(curr_path)
-
-
 def tar_compress(fname):
     tar = tarfile.open(fname + '.tar', mode='w')
     try:
@@ -128,7 +115,7 @@ class Exporter:
             # Then the source of the files becomes the path within the
             # container.
             container_dir = dbcontainer + ':/data/'
-            copy_dir_to_container(data_dir, container_dir)
+            self._copy_dir_to_container(data_dir, container_dir)
             data_dir = '/data/normalized'
 
         LOG.debug('Connecting to database to export data to...')
@@ -159,6 +146,8 @@ class Exporter:
             This argument says the name of such container.
         """
         data_dir = self._datasets_dir + '/registers'
+
+        # The data_dir directory is supposed to have only one .csv
         register_file = list(filter(lambda f: f.endswith('.csv'),
                                     os.listdir(data_dir)))[0]
 
@@ -168,7 +157,7 @@ class Exporter:
             # Then the source of the files becomes the path within the
             # container.
             container_dir = dbcontainer + ':/data/'
-            copy_dir_to_container(data_dir, container_dir)
+            self._copy_dir_to_container(data_dir, container_dir)
             data_dir = '/data/registers'
 
         LOG.debug('Connecting to database to export data to...')
@@ -188,6 +177,16 @@ class Exporter:
                       register_file)
 
         LOG.debug('Finished exporting all data!')
+
+    def _copy_dir_to_container(self, source_path, destine_path):
+        os.chdir(os.path.dirname(source_path))
+
+        LOG.debug('Copying files from to container %s...', destine_path)
+        process = subprocess.Popen(f'docker cp {source_path} {destine_path}'.split())
+        output_ignored, error_ignored = process.communicate()
+        LOG.debug('Finished copying files to container!')
+
+        os.chdir(self._datasets_dir)
 
     @staticmethod
     def _export_normalized(balance_sheet_path, connection):

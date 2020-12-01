@@ -34,7 +34,11 @@ def main():
             target_file (files respectivelly default to "scrapping/b3_companies_scrapped.json"
             and scrapping/b3_companies.json).
   export-all
-            Exports all cvm data to the database.
+            Exports all CVM data to the database.
+  export-balances
+            Exports all financial balance data from CVM to the database.
+  export-registers
+            Exports all company registers data from CVM to the database.
   yfinance  Get data from Yahoo Finance website.''')
 
         return
@@ -65,6 +69,12 @@ def main():
                 return
     elif command == 'export-all':
         utils.Exporter().export_all()
+        return
+    elif command == 'export-balances':
+        utils.Exporter().export_all_balances()
+        return
+    elif command == 'export-registers':
+        utils.Exporter().export_all_company_registers()
         return
 
     print('Unknown command. Run `py main.py help` to see options.')
