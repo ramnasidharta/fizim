@@ -19,6 +19,8 @@ def main():
              instance.
          [-d, --dataset <dataset>]
              Specify the directory where to store all data, default is "../datasets".
+    normalize-all
+             does both 'normalize-balances' and 'normalize-registers'.
     normalize-balances
              processes all datasets of financial balances so they are transformed
              into a more convenient format for reading, persisting, etc.
@@ -34,7 +36,7 @@ def main():
             target_file (files respectivelly default to "scrapping/b3_companies_scrapped.json"
             and scrapping/b3_companies.json).
   export-all
-            Exports all CVM data to the database.
+            does both 'export-balances' and 'export-registers'.
   export-balances
             Exports all financial balance data from CVM to the database.
   export-registers

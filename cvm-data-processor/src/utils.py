@@ -175,9 +175,9 @@ class Exporter:
             # firstly copy the files from the local filesystem to the container.
             # Then the source of the files becomes the path within the
             # container.
-            container_dir = dbcontainer + ':/data/normalized'
+            container_dir = dbcontainer + ':/data/'
             self._copy_dir_to_container(data_dir, container_dir)
-            data_dir = '/data/normalized'
+            data_dir = '/data'
 
         LOG.debug('Connecting to database to export data to...')
         connection = psycopg2.connect(host='localhost',
@@ -239,15 +239,22 @@ class Exporter:
 
         LOG.debug('Finished exporting all data!')
 
-    def _copy_dir_to_container(self, source_path, destine_path):
+    @staticmethod
+    def _copy_dir_to_container(source_path, destine_path):
+        curr_dir = os.getcwd()
         os.chdir(os.path.dirname(source_path))
 
-        LOG.debug('Copying files from to container %s...', destine_path)
-        process = subprocess.Popen(f'docker cp {source_path} {destine_path}'.split())
+        docker_cmd = f'docker cp {source_path} {destine_path}'
+        LOG.debug('Copying files from %s to container %s...', source_path,
+                  destine_path)
+        LOG.debug(docker_cmd)
+
+        process = subprocess.Popen(docker_cmd.split())
         output_ignored, error_ignored = process.communicate()
+
         LOG.debug('Finished copying files to container!')
 
-        os.chdir(self._datasets_dir)
+        os.chdir(curr_dir)
 
     @staticmethod
     def _export_normalized(balance_sheet_path, connection):

@@ -119,12 +119,13 @@ class BalancesNormalizer:
         Path(self.destine_dir).mkdir(parents=True, exist_ok=True)
 
         LOG.debug('cd %s', _short(self.datasets_dir))
+        curr_dir = os.getcwdb()
         os.chdir(self.datasets_dir)
 
         self.normalize_dataset(self.datasets_dir + '/cia_aberta-doc-dfp')
         self.normalize_dataset(self.datasets_dir + '/cia_aberta-doc-itr')
 
-        os.chdir('/')
+        os.chdir(curr_dir)
 
     def normalize_dataset(self, datasets_dir_path: str):
         """Normalizes all data of the given CVM dataset.
@@ -153,7 +154,7 @@ class BalancesNormalizer:
                 self.normalize_annual_balances(annual_balance_zip_path)
 
         LOG.info('Finished processing dataset %s.\n',
-                 _short(data_dir_path))
+                 Path(data_dir_path).absolute().parent)
 
     def normalize_annual_balances(self, annual_balance_zip_path: str):
         """Unzips the given file and normalizes each of the files within it.
@@ -371,11 +372,12 @@ class CompaniesRegisterNormalizer:
         Path(self.destine_dir).mkdir(parents=True, exist_ok=True)
 
         LOG.debug('cd %s', _short(self.datasets_dir))
+        curr_dir = os.getcwd()
         os.chdir(self.datasets_dir)
 
         self.normalize_dataset(self.datasets_dir + '/cia_aberta-cad')
 
-        os.chdir('/')
+        os.chdir(curr_dir)
 
     def normalize_dataset(self, datasets_dir_path: str):
         LOG.info("Start processing dataset %s.", _short(datasets_dir_path))
@@ -389,7 +391,7 @@ class CompaniesRegisterNormalizer:
                 self._normalize_companies_register(register_fpath)
 
         LOG.info('Finished processing dataset %s.\n',
-                 _short(data_dir_path))
+                 Path(data_dir_path).absolute().parent)
 
     def _normalize_companies_register(self, register_fpath: str):
         """Performs the normalization over the given registers file.
