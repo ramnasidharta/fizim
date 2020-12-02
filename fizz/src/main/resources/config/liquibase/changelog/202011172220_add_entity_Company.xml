@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+
+    <!--
+        Added the entity Company.
+    -->
+    <changeSet id="add-entity-Company" author="jhipster">
+        <createTable tableName="company">
+            <column name="cvm_code" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="cnpj" type="varchar(20)">
+                <constraints nullable="true" />
+            </column>
+            <column name="social_denomination" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="commercial_denomination" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="register_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="constitution_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="cancellation_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="cancellation_reason" type="varchar(80)">
+                <constraints nullable="true" />
+            </column>
+            <column name="situation" type="varchar(40)">
+                <constraints nullable="true" />
+            </column>
+            <column name="situation_start_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="sector" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="market" type="varchar(50)">
+                <constraints nullable="true" />
+            </column>
+            <column name="category" type="varchar(20)">
+                <constraints nullable="true" />
+            </column>
+            <column name="category_start_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="issuer_situation" type="varchar(80)">
+                <constraints nullable="true" />
+            </column>
+            <column name="issuer_situation_start_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="addr_type" type="varchar(30)">
+                <constraints nullable="true" />
+            </column>
+            <column name="public_space" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="addr_complement" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="neighborhood" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="county" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="st" type="varchar(2)">
+                <constraints nullable="true" />
+            </column>
+            <column name="country" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="zip" type="varchar(15)">
+                <constraints nullable="true" />
+            </column>
+            <column name="std" type="varchar(4)">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone" type="varchar(15)">
+                <constraints nullable="true" />
+            </column>
+            <column name="email" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_type" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_name" type="varchar(60)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_acting_start_date" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_public_space" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_addr_complement" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_neighbourhood" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_county" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_st" type="varchar(2)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_country" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_zip" type="varchar(15)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_std" type="varchar(4)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_phone" type="varchar(15)">
+                <constraints nullable="true" />
+            </column>
+            <column name="resp_email" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cnpj_auditor" type="varchar(20)">
+                <constraints nullable="true" />
+            </column>
+            <column name="auditor" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

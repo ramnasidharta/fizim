@@ -1,0 +1,2438 @@
+{
+  "alliar": {
+    "name": "ALLIAR",
+    "number": "1",
+    "codes": "AALR3",
+    "category": "Small Cap",
+    "sector": "Sa\u00fade"
+  },
+  "abcbrasil": {
+    "name": "ABC BRASIL",
+    "number": "2",
+    "codes": "ABCB4",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "ambevsa": {
+    "name": "AMBEV S/A",
+    "number": "3",
+    "codes": "ABEV3",
+    "category": "Mega Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "advanced-dh": {
+    "name": "ADVANCED-DH",
+    "number": "4",
+    "codes": "ADHM3",
+    "category": "Nano Cap",
+    "sector": "Sa\u00fade"
+  },
+  "afluentet": {
+    "name": "AFLUENTE T",
+    "number": "5",
+    "codes": "AFLT3",
+    "category": "Micro Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "brasilagro": {
+    "name": "BRASILAGRO",
+    "number": "6",
+    "codes": "AGRO3",
+    "category": "Small Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "spturis": {
+    "name": "SPTURIS",
+    "number": "7",
+    "codes": "AHEB3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "alpargatas": {
+    "name": "ALPARGATAS",
+    "number": "8",
+    "codes": "ALPA4",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "estapar": {
+    "name": "ESTAPAR",
+    "number": "9",
+    "codes": "ALPK3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "aliansce": {
+    "name": "ALIANSCE",
+    "number": "10",
+    "codes": "ALSC3",
+    "category": "Mid Cap",
+    "sector": "Financeiro e Outros"
+  },
+  "alianscsonae": {
+    "name": "ALIANSCSONAE",
+    "number": "11",
+    "codes": "ALSO3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "alupar": {
+    "name": "ALUPAR",
+    "number": "12",
+    "codes": "ALUP4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "lojasmarisa": {
+    "name": "LOJAS MARISA",
+    "number": "13",
+    "codes": "AMAR3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "ambipar": {
+    "name": "AMBIPAR",
+    "number": "14",
+    "codes": "AMBP3",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "anima": {
+    "name": "ANIMA",
+    "number": "15",
+    "codes": "ANIM3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "alpersa": {
+    "name": "ALPER S.A.",
+    "number": "16",
+    "codes": "APER3",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "aliperti": {
+    "name": "ALIPERTI",
+    "number": "17",
+    "codes": "APTI4",
+    "category": "Nano Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "arezzoco": {
+    "name": "AREZZO CO",
+    "number": "18",
+    "codes": "ARZZ3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "atompar": {
+    "name": "ATOMPAR",
+    "number": "19",
+    "codes": "ATOM3",
+    "category": "Nano Cap",
+    "sector": "Outros"
+  },
+  "aura360": {
+    "name": "AURA 360",
+    "number": "20",
+    "codes": "AURA32",
+    "category": "-",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "azevedo": {
+    "name": "AZEVEDO",
+    "number": "21",
+    "codes": "AZEV4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "azul": {
+    "name": "AZUL",
+    "number": "22",
+    "codes": "AZUL4",
+    "category": "Mid Cap",
+    "sector": "Bens Industriais"
+  },
+  "b3": {
+    "name": "B3",
+    "number": "23",
+    "codes": "B3SA3",
+    "category": "Big Cap",
+    "sector": "Financeiro"
+  },
+  "bahema": {
+    "name": "BAHEMA",
+    "number": "24",
+    "codes": "BAHI3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "baumer": {
+    "name": "BAUMER",
+    "number": "25",
+    "codes": "BALM4",
+    "category": "Nano Cap",
+    "sector": "Sa\u00fade"
+  },
+  "excelsior": {
+    "name": "EXCELSIOR",
+    "number": "26",
+    "codes": "BAUH4",
+    "category": "Micro Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "amazonia": {
+    "name": "AMAZONIA",
+    "number": "27",
+    "codes": "BAZA3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "brasil": {
+    "name": "BRASIL",
+    "number": "28",
+    "codes": "BBAS3",
+    "category": "Big Cap",
+    "sector": "Financeiro"
+  },
+  "bradesco": {
+    "name": "BRADESCO",
+    "number": "29",
+    "codes": "BBDC4",
+    "category": "Mega Cap",
+    "sector": "Financeiro"
+  },
+  "bbmlogistica": {
+    "name": "BBMLOGISTICA",
+    "number": "30",
+    "codes": "BBML3",
+    "category": "-",
+    "sector": "Bens Industriais"
+  },
+  "brbrokers": {
+    "name": "BR BROKERS",
+    "number": "31",
+    "codes": "BBRK3",
+    "category": "Nano Cap",
+    "sector": "Financeiro"
+  },
+  "bbseguridade": {
+    "name": "BBSEGURIDADE",
+    "number": "32",
+    "codes": "BBSE3",
+    "category": "Big Cap",
+    "sector": "Financeiro"
+  },
+  "bardella": {
+    "name": "BARDELLA",
+    "number": "33",
+    "codes": "BDLL4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "minerva": {
+    "name": "MINERVA",
+    "number": "34",
+    "codes": "BEEF3",
+    "category": "Mid Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "banestes": {
+    "name": "BANESTES",
+    "number": "35",
+    "codes": "BEES4",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "banese": {
+    "name": "BANESE",
+    "number": "36",
+    "codes": "BGIP4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "bancointer": {
+    "name": "BANCO INTER",
+    "number": "37",
+    "codes": "BIDI4",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "biomm": {
+    "name": "BIOMM",
+    "number": "38",
+    "codes": "BIOM3",
+    "category": "Small Cap",
+    "sector": "Sa\u00fade"
+  },
+  "bkbrasil": {
+    "name": "BK BRASIL",
+    "number": "39",
+    "codes": "BKBR3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "mercbrasil": {
+    "name": "MERC BRASIL",
+    "number": "40",
+    "codes": "BMEB4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "bancobmg": {
+    "name": "BANCO BMG",
+    "number": "41",
+    "codes": "BMGB4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "mercinvest": {
+    "name": "MERC INVEST",
+    "number": "42",
+    "codes": "BMIN4",
+    "category": "Nano Cap",
+    "sector": "Financeiro"
+  },
+  "bicmonark": {
+    "name": "BIC MONARK",
+    "number": "43",
+    "codes": "BMKS3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "nordbrasil": {
+    "name": "NORD BRASIL",
+    "number": "44",
+    "codes": "BNBR3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "bombril": {
+    "name": "BOMBRIL",
+    "number": "45",
+    "codes": "BOBR4",
+    "category": "Micro Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "btgpbanco": {
+    "name": "BTGP BANCO",
+    "number": "46",
+    "codes": "BPAC5",
+    "category": "Big Cap",
+    "sector": "Financeiro"
+  },
+  "bancopan": {
+    "name": "BANCO PAN",
+    "number": "47",
+    "codes": "BPAN4",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "banpara": {
+    "name": "BANPARA",
+    "number": "48",
+    "codes": "BPAR3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "brpharma": {
+    "name": "BR PHARMA",
+    "number": "49",
+    "codes": "BPHA3",
+    "category": "Nano Cap",
+    "sector": "Sa\u00fade"
+  },
+  "bradespar": {
+    "name": "BRADESPAR",
+    "number": "50",
+    "codes": "BRAP4",
+    "category": "Mid Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "petrobrasbr": {
+    "name": "PETROBRAS BR",
+    "number": "51",
+    "codes": "BRDT3",
+    "category": "Mid Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "brfsa": {
+    "name": "BRF SA",
+    "number": "52",
+    "codes": "BRFS3",
+    "category": "Mid Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "alfaconsorc": {
+    "name": "ALFA CONSORC",
+    "number": "53",
+    "codes": "BRGE8",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "alfainvest": {
+    "name": "ALFA INVEST",
+    "number": "54",
+    "codes": "BRIV4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "braskem": {
+    "name": "BRASKEM",
+    "number": "55",
+    "codes": "BRKM6",
+    "category": "Mid Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "brmallspar": {
+    "name": "BR MALLS PAR",
+    "number": "56",
+    "codes": "BRML3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "brpropert": {
+    "name": "BR PROPERT",
+    "number": "57",
+    "codes": "BRPR3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "brq": {
+    "name": "BRQ",
+    "number": "58",
+    "codes": "BRQB3",
+    "category": "-",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "banrisul": {
+    "name": "BANRISUL",
+    "number": "59",
+    "codes": "BRSR6",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "biosev": {
+    "name": "BIOSEV",
+    "number": "60",
+    "codes": "BSEV3",
+    "category": "Small Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "brbbanco": {
+    "name": "BRB BANCO",
+    "number": "61",
+    "codes": "BSLI4",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "b2wdigital": {
+    "name": "B2W DIGITAL",
+    "number": "62",
+    "codes": "BTOW3",
+    "category": "Big Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "battistella": {
+    "name": "BATTISTELLA",
+    "number": "63",
+    "codes": "BTTL3",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "constalind": {
+    "name": "CONST A LIND",
+    "number": "64",
+    "codes": "CALI4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "cambuci": {
+    "name": "CAMBUCI",
+    "number": "65",
+    "codes": "CAMB3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "camil": {
+    "name": "CAMIL",
+    "number": "66",
+    "codes": "CAML3",
+    "category": "Small Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "csucardsyst": {
+    "name": "CSU CARDSYST",
+    "number": "67",
+    "codes": "CARD3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "casan": {
+    "name": "CASAN",
+    "number": "68",
+    "codes": "CASN4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "indcataguas": {
+    "name": "IND CATAGUAS",
+    "number": "69",
+    "codes": "CATA4",
+    "category": "-",
+    "sector": "Consumo C\u00edclico"
+  },
+  "amplaenerg": {
+    "name": "AMPLA ENERG",
+    "number": "70",
+    "codes": "CBEE3",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "cyrecom-ccp": {
+    "name": "CYRE COM-CCP",
+    "number": "71",
+    "codes": "CCPR3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "ccrsa": {
+    "name": "CCR SA",
+    "number": "72",
+    "codes": "CCRO3",
+    "category": "Big Cap",
+    "sector": "Bens Industriais"
+  },
+  "ccxcarvao": {
+    "name": "CCX CARVAO",
+    "number": "73",
+    "codes": "CCXC3",
+    "category": "Nano Cap",
+    "sector": "Financeiro e Outros"
+  },
+  "ceamodas": {
+    "name": "CEA MODAS",
+    "number": "74",
+    "codes": "CEAB3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "ceb": {
+    "name": "CEB",
+    "number": "75",
+    "codes": "CEBR6",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "cedro": {
+    "name": "CEDRO",
+    "number": "76",
+    "codes": "CEDO4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "coelba": {
+    "name": "COELBA",
+    "number": "77",
+    "codes": "CEEB6",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "ceee-d": {
+    "name": "CEEE-D",
+    "number": "78",
+    "codes": "CEED4",
+    "category": "Micro Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "ceg": {
+    "name": "CEG",
+    "number": "79",
+    "codes": "CEGR3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "celpe": {
+    "name": "CELPE",
+    "number": "80",
+    "codes": "CEPE6",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "cesp": {
+    "name": "CESP",
+    "number": "81",
+    "codes": "CESP6",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "comgas": {
+    "name": "COMGAS",
+    "number": "82",
+    "codes": "CGAS5",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "grazziotin": {
+    "name": "GRAZZIOTIN",
+    "number": "83",
+    "codes": "CGRA4",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "cielo": {
+    "name": "CIELO",
+    "number": "84",
+    "codes": "CIEL3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "celesc": {
+    "name": "CELESC",
+    "number": "85",
+    "codes": "CLSC4",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "cemig": {
+    "name": "CEMIG",
+    "number": "86",
+    "codes": "CMIG4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "cims": {
+    "name": "CIMS",
+    "number": "87",
+    "codes": "CMSA4",
+    "category": "-",
+    "sector": "Outros"
+  },
+  "cinesystem": {
+    "name": "CINESYSTEM",
+    "number": "88",
+    "codes": "CNSY3",
+    "category": "-",
+    "sector": "Comunica\u00e7\u00f5es"
+  },
+  "centauro": {
+    "name": "CENTAURO",
+    "number": "89",
+    "codes": "CNTO3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "coelce": {
+    "name": "COELCE",
+    "number": "90",
+    "codes": "COCE6",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "cognaon": {
+    "name": "COGNA ON",
+    "number": "91",
+    "codes": "COGN3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "corribeiro": {
+    "name": "COR RIBEIRO",
+    "number": "92",
+    "codes": "CORR4",
+    "category": "Nano Cap",
+    "sector": "Financeiro"
+  },
+  "cpflenergia": {
+    "name": "CPFL ENERGIA",
+    "number": "93",
+    "codes": "CPFE3",
+    "category": "Big Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "copel": {
+    "name": "COPEL",
+    "number": "94",
+    "codes": "CPLE6",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "cr2": {
+    "name": "CR2",
+    "number": "95",
+    "codes": "CRDE3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "carrefourbr": {
+    "name": "CARREFOUR BR",
+    "number": "96",
+    "codes": "CRFB3",
+    "category": "Big Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "alfafinanc": {
+    "name": "ALFA FINANC",
+    "number": "97",
+    "codes": "CRIV4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "cristal": {
+    "name": "CRISTAL",
+    "number": "98",
+    "codes": "CRPG6",
+    "category": "Micro Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "segalbahia": {
+    "name": "SEG AL BAHIA",
+    "number": "99",
+    "codes": "CSAB4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "cosan": {
+    "name": "COSAN",
+    "number": "100",
+    "codes": "CSAN3",
+    "category": "Big Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "copasa": {
+    "name": "COPASA",
+    "number": "101",
+    "codes": "CSMG3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "sidnacional": {
+    "name": "SID NACIONAL",
+    "number": "102",
+    "codes": "CSNA3",
+    "category": "Mid Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "cosern": {
+    "name": "COSERN",
+    "number": "103",
+    "codes": "CSRN6",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "ctcsa": {
+    "name": "CTC S.A.",
+    "number": "104",
+    "codes": "CTCA3",
+    "category": "-",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "karsten": {
+    "name": "KARSTEN",
+    "number": "105",
+    "codes": "CTKA4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "coteminas": {
+    "name": "COTEMINAS",
+    "number": "106",
+    "codes": "CTNM4",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "santanense": {
+    "name": "SANTANENSE",
+    "number": "107",
+    "codes": "CTSA8",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "curysa": {
+    "name": "CURY S/A",
+    "number": "108",
+    "codes": "CURY3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "cvcbrasil": {
+    "name": "CVC BRASIL",
+    "number": "109",
+    "codes": "CVCB3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "cyrelarealt": {
+    "name": "CYRELA REALT",
+    "number": "110",
+    "codes": "CYRE3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "dasa": {
+    "name": "DASA",
+    "number": "111",
+    "codes": "DASA3",
+    "category": "Big Cap",
+    "sector": "Sa\u00fade"
+  },
+  "direcional": {
+    "name": "DIRECIONAL",
+    "number": "112",
+    "codes": "DIRR3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "dommo": {
+    "name": "DOMMO",
+    "number": "113",
+    "codes": "DMMO3",
+    "category": "Micro Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "d1000vfarma": {
+    "name": "D1000VFARMA",
+    "number": "114",
+    "codes": "DMVF3",
+    "category": "Micro Cap",
+    "sector": "Sa\u00fade"
+  },
+  "dohler": {
+    "name": "DOHLER",
+    "number": "115",
+    "codes": "DOHL4",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "dtcom-direct": {
+    "name": "DTCOM-DIRECT",
+    "number": "116",
+    "codes": "DTCY4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "duratex": {
+    "name": "DURATEX",
+    "number": "117",
+    "codes": "DTEX3",
+    "category": "Mid Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "acoaltona": {
+    "name": "ACO ALTONA",
+    "number": "118",
+    "codes": "EALT4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "ecorodovias": {
+    "name": "ECORODOVIAS",
+    "number": "119",
+    "codes": "ECOR3",
+    "category": "Mid Cap",
+    "sector": "Bens Industriais"
+  },
+  "encorpar": {
+    "name": "ENCORPAR",
+    "number": "120",
+    "codes": "ECPR4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "ceee-gt": {
+    "name": "CEEE-GT",
+    "number": "121",
+    "codes": "EEEL4",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "engiebrasil": {
+    "name": "ENGIE BRASIL",
+    "number": "122",
+    "codes": "EGIE3",
+    "category": "Big Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "elektro": {
+    "name": "ELEKTRO",
+    "number": "123",
+    "codes": "EKTR4",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "elekeiroz": {
+    "name": "ELEKEIROZ",
+    "number": "124",
+    "codes": "ELEK4",
+    "category": "Micro Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "eletrobras": {
+    "name": "ELETROBRAS",
+    "number": "125",
+    "codes": "ELET6",
+    "category": "Big Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "emae": {
+    "name": "EMAE",
+    "number": "126",
+    "codes": "EMAE4",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "embraer": {
+    "name": "EMBRAER",
+    "number": "127",
+    "codes": "EMBR3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "enautapart": {
+    "name": "ENAUTA PART",
+    "number": "128",
+    "codes": "ENAT3",
+    "category": "Small Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "energiasbr": {
+    "name": "ENERGIAS BR",
+    "number": "129",
+    "codes": "ENBR3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "eneva": {
+    "name": "ENEVA",
+    "number": "130",
+    "codes": "ENEV3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "energisa": {
+    "name": "ENERGISA",
+    "number": "131",
+    "codes": "ENGI4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "energisamt": {
+    "name": "ENERGISA MT",
+    "number": "132",
+    "codes": "ENMT4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "eqtlpara": {
+    "name": "EQTL PARA",
+    "number": "133",
+    "codes": "EQPA7",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "equatorial": {
+    "name": "EQUATORIAL",
+    "number": "134",
+    "codes": "EQTL3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "estrela": {
+    "name": "ESTRELA",
+    "number": "135",
+    "codes": "ESTR4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "eternit": {
+    "name": "ETERNIT",
+    "number": "136",
+    "codes": "ETER3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "eucatex": {
+    "name": "EUCATEX",
+    "number": "137",
+    "codes": "EUCA4",
+    "category": "Small Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "even": {
+    "name": "EVEN",
+    "number": "138",
+    "codes": "EVEN3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "eztec": {
+    "name": "EZTEC",
+    "number": "139",
+    "codes": "EZTC3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "ferbasa": {
+    "name": "FERBASA",
+    "number": "140",
+    "codes": "FESA4",
+    "category": "Small Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "ferheringer": {
+    "name": "FER HERINGER",
+    "number": "141",
+    "codes": "FHER3",
+    "category": "Nano Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "investbemge": {
+    "name": "INVEST BEMGE",
+    "number": "142",
+    "codes": "FIGE4",
+    "category": "Nano Cap",
+    "sector": "Outros"
+  },
+  "flexsa": {
+    "name": "FLEX S/A",
+    "number": "143",
+    "codes": "FLEX3",
+    "category": "-",
+    "sector": "Bens Industriais"
+  },
+  "fleury": {
+    "name": "FLEURY",
+    "number": "144",
+    "codes": "FLRY3",
+    "category": "Mid Cap",
+    "sector": "Sa\u00fade"
+  },
+  "finansinos": {
+    "name": "FINANSINOS",
+    "number": "145",
+    "codes": "FNCN3",
+    "category": "-",
+    "sector": "Financeiro"
+  },
+  "fras-le": {
+    "name": "FRAS-LE",
+    "number": "146",
+    "codes": "FRAS3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "metalfrio": {
+    "name": "METALFRIO",
+    "number": "147",
+    "codes": "FRIO3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "pomifrutas": {
+    "name": "POMIFRUTAS",
+    "number": "148",
+    "codes": "FRTA3",
+    "category": "Nano Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "biotoscana": {
+    "name": "BIOTOSCANA",
+    "number": "149",
+    "codes": "GBIO33",
+    "category": "-",
+    "sector": "Sa\u00fade"
+  },
+  "gerparanap": {
+    "name": "GER PARANAP",
+    "number": "150",
+    "codes": "GEPA4",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "gafisa": {
+    "name": "GAFISA",
+    "number": "151",
+    "codes": "GFSA3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "gerdau": {
+    "name": "GERDAU",
+    "number": "152",
+    "codes": "GGBR4",
+    "category": "Big Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "intermedica": {
+    "name": "INTERMEDICA",
+    "number": "153",
+    "codes": "GNDI3",
+    "category": "Big Cap",
+    "sector": "Sa\u00fade"
+  },
+  "gerdaumet": {
+    "name": "GERDAU MET",
+    "number": "154",
+    "codes": "GOAU4",
+    "category": "Mid Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "gol": {
+    "name": "GOL",
+    "number": "155",
+    "codes": "GOLL4",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "celgpar": {
+    "name": "CELGPAR",
+    "number": "156",
+    "codes": "GPAR3",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "gpcpart": {
+    "name": "GPC PART",
+    "number": "157",
+    "codes": "GPCP4",
+    "category": "Micro Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "gpinvest": {
+    "name": "GP INVEST",
+    "number": "158",
+    "codes": "GPIV33",
+    "category": "-",
+    "sector": "Financeiro"
+  },
+  "grendene": {
+    "name": "GRENDENE",
+    "number": "159",
+    "codes": "GRND3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "generalshopp": {
+    "name": "GENERALSHOPP",
+    "number": "160",
+    "codes": "GSHP3",
+    "category": "Nano Cap",
+    "sector": "Financeiro"
+  },
+  "guararapes": {
+    "name": "GUARARAPES",
+    "number": "161",
+    "codes": "GUAR3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "hagasa": {
+    "name": "HAGA S/A",
+    "number": "162",
+    "codes": "HAGA4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "hapvida": {
+    "name": "HAPVIDA",
+    "number": "163",
+    "codes": "HAPV3",
+    "category": "Big Cap",
+    "sector": "Sa\u00fade"
+  },
+  "helbor": {
+    "name": "HELBOR",
+    "number": "164",
+    "codes": "HBOR3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "habitasul": {
+    "name": "HABITASUL",
+    "number": "165",
+    "codes": "HBTS6",
+    "category": "Nano Cap",
+    "sector": "Financeiro"
+  },
+  "brhome": {
+    "name": "BR HOME",
+    "number": "166",
+    "codes": "HCBR3",
+    "category": "-",
+    "sector": "Consumo C\u00edclico"
+  },
+  "hercules": {
+    "name": "HERCULES",
+    "number": "167",
+    "codes": "HETA4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "ciahering": {
+    "name": "CIA HERING",
+    "number": "168",
+    "codes": "HGTX3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "hoteisothon": {
+    "name": "HOTEIS OTHON",
+    "number": "169",
+    "codes": "HOOT4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "hypera": {
+    "name": "HYPERA",
+    "number": "170",
+    "codes": "HYPE3",
+    "category": "Mid Cap",
+    "sector": "Sa\u00fade"
+  },
+  "indusval": {
+    "name": "INDUSVAL",
+    "number": "171",
+    "codes": "IDVL4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "igbsa": {
+    "name": "IGB S/A",
+    "number": "172",
+    "codes": "IGBR3",
+    "category": "Nano Cap",
+    "sector": "Financeiro"
+  },
+  "iguasa": {
+    "name": "IGUA SA",
+    "number": "173",
+    "codes": "IGSN3",
+    "category": "-",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "iguatemi": {
+    "name": "IGUATEMI",
+    "number": "174",
+    "codes": "IGTA3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "inepar": {
+    "name": "INEPAR",
+    "number": "175",
+    "codes": "INEP4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "intersa": {
+    "name": "INTER SA",
+    "number": "176",
+    "codes": "INNT3",
+    "category": "-",
+    "sector": "Consumo C\u00edclico"
+  },
+  "irbbrasilre": {
+    "name": "IRBBRASIL RE",
+    "number": "177",
+    "codes": "IRBR3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "itautec": {
+    "name": "ITAUTEC",
+    "number": "178",
+    "codes": "ITEC3",
+    "category": "Micro Cap",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "itausa": {
+    "name": "ITAUSA",
+    "number": "179",
+    "codes": "ITSA4",
+    "category": "Big Cap",
+    "sector": "Financeiro"
+  },
+  "itauunibanco": {
+    "name": "ITAUUNIBANCO",
+    "number": "180",
+    "codes": "ITUB4",
+    "category": "Mega Cap",
+    "sector": "Financeiro"
+  },
+  "jbduarte": {
+    "name": "J B DUARTE",
+    "number": "181",
+    "codes": "JBDU4",
+    "category": "Nano Cap",
+    "sector": "Outros"
+  },
+  "jbs": {
+    "name": "JBS",
+    "number": "182",
+    "codes": "JBSS3",
+    "category": "Big Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "joaofortes": {
+    "name": "JOAO FORTES",
+    "number": "183",
+    "codes": "JFEN3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "jhsfpart": {
+    "name": "JHSF PART",
+    "number": "184",
+    "codes": "JHSF3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "josapar": {
+    "name": "JOSAPAR",
+    "number": "185",
+    "codes": "JOPA4",
+    "category": "Micro Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "jereissati": {
+    "name": "JEREISSATI",
+    "number": "186",
+    "codes": "JPSA3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "jsl": {
+    "name": "JSL",
+    "number": "187",
+    "codes": "JSLG3",
+    "category": "Mid Cap",
+    "sector": "Bens Industriais"
+  },
+  "keplerweber": {
+    "name": "KEPLER WEBER",
+    "number": "188",
+    "codes": "KEPL3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "klabinsa": {
+    "name": "KLABIN S/A",
+    "number": "189",
+    "codes": "KLBN4",
+    "category": "Big Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "lojasameric": {
+    "name": "LOJAS AMERIC",
+    "number": "190",
+    "codes": "LAME4",
+    "category": "Big Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "lavvi": {
+    "name": "LAVVI",
+    "number": "191",
+    "codes": "LAVV3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "locamerica": {
+    "name": "LOCAMERICA",
+    "number": "192",
+    "codes": "LCAM3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "metalleve": {
+    "name": "METAL LEVE",
+    "number": "193",
+    "codes": "LEVE3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "lojashering": {
+    "name": "LOJAS HERING",
+    "number": "194",
+    "codes": "LHER4",
+    "category": "Nano Cap",
+    "sector": "Financeiro e Outros"
+  },
+  "lightsa": {
+    "name": "LIGHT S/A",
+    "number": "195",
+    "codes": "LIGT3",
+    "category": "Small Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "linx": {
+    "name": "LINX",
+    "number": "196",
+    "codes": "LINX3",
+    "category": "Mid Cap",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "eletropar": {
+    "name": "ELETROPAR",
+    "number": "197",
+    "codes": "LIPR3",
+    "category": "Micro Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "quero-quero": {
+    "name": "QUERO-QUERO",
+    "number": "198",
+    "codes": "LJQQ3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "lifemed": {
+    "name": "LIFEMED",
+    "number": "199",
+    "codes": "LMED3",
+    "category": "-",
+    "sector": "Sa\u00fade"
+  },
+  "logcomprop": {
+    "name": "LOG COM PROP",
+    "number": "200",
+    "codes": "LOGG3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "log-in": {
+    "name": "LOG-IN",
+    "number": "201",
+    "codes": "LOGN3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "lopesbrasil": {
+    "name": "LOPES BRASIL",
+    "number": "202",
+    "codes": "LPSB3",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "lojasrenner": {
+    "name": "LOJAS RENNER",
+    "number": "203",
+    "codes": "LREN3",
+    "category": "Big Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "lupatech": {
+    "name": "LUPATECH",
+    "number": "204",
+    "codes": "LUPA3",
+    "category": "Nano Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "trevisa": {
+    "name": "TREVISA",
+    "number": "205",
+    "codes": "LUXM4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "locaweb": {
+    "name": "LOCAWEB",
+    "number": "206",
+    "codes": "LWSA3",
+    "category": "Mid Cap",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "cemepe": {
+    "name": "CEMEPE",
+    "number": "207",
+    "codes": "MAPT4",
+    "category": "Nano Cap",
+    "sector": "Outros"
+  },
+  "mdiasbranco": {
+    "name": "M.DIASBRANCO",
+    "number": "208",
+    "codes": "MDIA3",
+    "category": "Mid Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "mouradubeux": {
+    "name": "MOURA DUBEUX",
+    "number": "209",
+    "codes": "MDNE3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "imcsa": {
+    "name": "IMC S/A",
+    "number": "210",
+    "codes": "MEAL3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "mercfinanc": {
+    "name": "MERC FINANC",
+    "number": "211",
+    "codes": "MERC4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "mangelsindl": {
+    "name": "MANGELS INDL",
+    "number": "212",
+    "codes": "MGEL4",
+    "category": "Nano Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "magazluiza": {
+    "name": "MAGAZ LUIZA",
+    "number": "213",
+    "codes": "MGLU3",
+    "category": "Mega Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "mills": {
+    "name": "MILLS",
+    "number": "214",
+    "codes": "MILS3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "minasmaquina": {
+    "name": "MINASMAQUINA",
+    "number": "215",
+    "codes": "MMAQ4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "mmxminer": {
+    "name": "MMX MINER",
+    "number": "216",
+    "codes": "MMXM3",
+    "category": "Nano Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "mundial": {
+    "name": "MUNDIAL",
+    "number": "217",
+    "codes": "MNDL3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "minupar": {
+    "name": "MINUPAR",
+    "number": "218",
+    "codes": "MNPR3",
+    "category": "Nano Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "montaranha": {
+    "name": "MONT ARANHA",
+    "number": "219",
+    "codes": "MOAR3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "movida": {
+    "name": "MOVIDA",
+    "number": "220",
+    "codes": "MOVI3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "multiplus": {
+    "name": "MULTIPLUS",
+    "number": "221",
+    "codes": "MPLU3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "marfrig": {
+    "name": "MARFRIG",
+    "number": "222",
+    "codes": "MRFG3",
+    "category": "Mid Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "mrv": {
+    "name": "MRV",
+    "number": "223",
+    "codes": "MRVE3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "melhorsp": {
+    "name": "MELHOR SP",
+    "number": "224",
+    "codes": "MSPA4",
+    "category": "Micro Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "maestroloc": {
+    "name": "MAESTROLOC",
+    "number": "225",
+    "codes": "MSRO3",
+    "category": "-",
+    "sector": "Consumo C\u00edclico"
+  },
+  "metaliguacu": {
+    "name": "METAL IGUACU",
+    "number": "226",
+    "codes": "MTIG4",
+    "category": "Nano Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "mitrerealty": {
+    "name": "MITRE REALTY",
+    "number": "227",
+    "codes": "MTRE3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "metisa": {
+    "name": "METISA",
+    "number": "228",
+    "codes": "MTSA4",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "multiplan": {
+    "name": "MULTIPLAN",
+    "number": "229",
+    "codes": "MULT3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "wetzelsa": {
+    "name": "WETZEL S/A",
+    "number": "230",
+    "codes": "MWET4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "iochp-maxion": {
+    "name": "IOCHP-MAXION",
+    "number": "231",
+    "codes": "MYPK3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "nadirfiguei": {
+    "name": "NADIR FIGUEI",
+    "number": "232",
+    "codes": "NAFG4",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "suzanohold": {
+    "name": "SUZANO HOLD",
+    "number": "233",
+    "codes": "NEMO6",
+    "category": "-",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "neoenergia": {
+    "name": "NEOENERGIA",
+    "number": "234",
+    "codes": "NEOE3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "nordonmet": {
+    "name": "NORDON MET",
+    "number": "235",
+    "codes": "NORD3",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "nortcquimica": {
+    "name": "NORTCQUIMICA",
+    "number": "236",
+    "codes": "NRTQ3",
+    "category": "-",
+    "sector": "Sa\u00fade"
+  },
+  "gruponatura": {
+    "name": "GRUPO NATURA",
+    "number": "237",
+    "codes": "NTCO3",
+    "category": "Big Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "oderich": {
+    "name": "ODERICH",
+    "number": "238",
+    "codes": "ODER4",
+    "category": "Nano Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "odontoprev": {
+    "name": "ODONTOPREV",
+    "number": "239",
+    "codes": "ODPV3",
+    "category": "Mid Cap",
+    "sector": "Sa\u00fade"
+  },
+  "ourofinosa": {
+    "name": "OUROFINO S/A",
+    "number": "240",
+    "codes": "OFSA3",
+    "category": "Small Cap",
+    "sector": "Sa\u00fade"
+  },
+  "oi": {
+    "name": "OI",
+    "number": "241",
+    "codes": "OIBR4",
+    "category": "Mid Cap",
+    "sector": "Comunica\u00e7\u00f5es"
+  },
+  "omegager": {
+    "name": "OMEGA GER",
+    "number": "242",
+    "codes": "OMGE3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "osxbrasil": {
+    "name": "OSX BRASIL",
+    "number": "243",
+    "codes": "OSXB3",
+    "category": "Nano Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "pacificrdsl": {
+    "name": "PACIFIC RDSL",
+    "number": "244",
+    "codes": "PACF3",
+    "category": "-",
+    "sector": "Sa\u00fade"
+  },
+  "ihpardini": {
+    "name": "IHPARDINI",
+    "number": "245",
+    "codes": "PARD3",
+    "category": "Small Cap",
+    "sector": "Sa\u00fade"
+  },
+  "panatlantica": {
+    "name": "PANATLANTICA",
+    "number": "246",
+    "codes": "PATI4",
+    "category": "Micro Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "pacucar-cbd": {
+    "name": "P.ACUCAR-CBD",
+    "number": "247",
+    "codes": "PCAR3",
+    "category": "Mid Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "pdgrealt": {
+    "name": "PDG REALT",
+    "number": "248",
+    "codes": "PDGR3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "padtec": {
+    "name": "PADTEC",
+    "number": "249",
+    "codes": "PDTC3",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "paralbahia": {
+    "name": "PAR AL BAHIA",
+    "number": "250",
+    "codes": "PEAB4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "petrobras": {
+    "name": "PETROBRAS",
+    "number": "251",
+    "codes": "PETR4",
+    "category": "Mega Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "petz": {
+    "name": "PETZ",
+    "number": "252",
+    "codes": "PETZ3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "profarma": {
+    "name": "PROFARMA",
+    "number": "253",
+    "codes": "PFRM3",
+    "category": "Micro Cap",
+    "sector": "Sa\u00fade"
+  },
+  "paguemenos": {
+    "name": "PAGUE MENOS",
+    "number": "254",
+    "codes": "PGMN3",
+    "category": "Small Cap",
+    "sector": "Sa\u00fade"
+  },
+  "pine": {
+    "name": "PINE",
+    "number": "255",
+    "codes": "PINE4",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "plascarpart": {
+    "name": "PLASCAR PART",
+    "number": "256",
+    "codes": "PLAS3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "paranapanema": {
+    "name": "PARANAPANEMA",
+    "number": "257",
+    "codes": "PMAM3",
+    "category": "Micro Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "dimed": {
+    "name": "DIMED",
+    "number": "258",
+    "codes": "PNVL4",
+    "category": "Small Cap",
+    "sector": "Sa\u00fade"
+  },
+  "marcopolo": {
+    "name": "MARCOPOLO",
+    "number": "259",
+    "codes": "POMO4",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "positivotec": {
+    "name": "POSITIVO TEC",
+    "number": "260",
+    "codes": "POSI3",
+    "category": "Micro Cap",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "polpar": {
+    "name": "POLPAR",
+    "number": "261",
+    "codes": "PPAR3",
+    "category": "Nano Cap",
+    "sector": "Outros"
+  },
+  "ppla": {
+    "name": "PPLA",
+    "number": "262",
+    "codes": "PPLA11",
+    "category": "Nano Cap",
+    "sector": "Financeiro"
+  },
+  "petrorio": {
+    "name": "PETRORIO",
+    "number": "263",
+    "codes": "PRIO3",
+    "category": "Small Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "priner": {
+    "name": "PRINER",
+    "number": "264",
+    "codes": "PRNR3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "portoseguro": {
+    "name": "PORTO SEGURO",
+    "number": "265",
+    "codes": "PSSA3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "portobello": {
+    "name": "PORTOBELLO",
+    "number": "266",
+    "codes": "PTBL3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "pratica": {
+    "name": "PRATICA",
+    "number": "267",
+    "codes": "PTCA3",
+    "category": "-",
+    "sector": "Bens Industriais"
+  },
+  "pettenati": {
+    "name": "PETTENATI",
+    "number": "268",
+    "codes": "PTNT4",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "qualicorp": {
+    "name": "QUALICORP",
+    "number": "269",
+    "codes": "QUAL3",
+    "category": "Mid Cap",
+    "sector": "Sa\u00fade"
+  },
+  "qualitysoft": {
+    "name": "QUALITY SOFT",
+    "number": "270",
+    "codes": "QUSW3",
+    "category": "-",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "raiadrogasil": {
+    "name": "RAIADROGASIL",
+    "number": "271",
+    "codes": "RADL3",
+    "category": "Big Cap",
+    "sector": "Sa\u00fade"
+  },
+  "rumosa": {
+    "name": "RUMO S.A.",
+    "number": "272",
+    "codes": "RAIL3",
+    "category": "Big Cap",
+    "sector": "Bens Industriais"
+  },
+  "irani": {
+    "name": "IRANI",
+    "number": "273",
+    "codes": "RANI4",
+    "category": "Small Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "randonpart": {
+    "name": "RANDON PART",
+    "number": "274",
+    "codes": "RAPT4",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "recrusul": {
+    "name": "RECRUSUL",
+    "number": "275",
+    "codes": "RCSL4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "rni": {
+    "name": "RNI",
+    "number": "276",
+    "codes": "RDNI3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "redeenergia": {
+    "name": "REDE ENERGIA",
+    "number": "277",
+    "codes": "REDE3",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "localiza": {
+    "name": "LOCALIZA",
+    "number": "278",
+    "codes": "RENT3",
+    "category": "Big Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "cosanlog": {
+    "name": "COSAN LOG",
+    "number": "279",
+    "codes": "RLOG3",
+    "category": "Mid Cap",
+    "sector": "Bens Industriais"
+  },
+  "renova": {
+    "name": "RENOVA",
+    "number": "280",
+    "codes": "RNEW4",
+    "category": "Nano Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "indsromi": {
+    "name": "INDS ROMI",
+    "number": "281",
+    "codes": "ROMI3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "alfaholding": {
+    "name": "ALFA HOLDING",
+    "number": "282",
+    "codes": "RPAD6",
+    "category": "Micro Cap",
+    "sector": "Financeiro"
+  },
+  "petmanguinh": {
+    "name": "PET MANGUINH",
+    "number": "283",
+    "codes": "RPMG3",
+    "category": "Nano Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "rossiresid": {
+    "name": "ROSSI RESID",
+    "number": "284",
+    "codes": "RSID3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "riosulense": {
+    "name": "RIOSULENSE",
+    "number": "285",
+    "codes": "RSUL4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "santanderbr": {
+    "name": "SANTANDER BR",
+    "number": "286",
+    "codes": "SANB4",
+    "category": "Big Cap",
+    "sector": "Financeiro"
+  },
+  "sanepar": {
+    "name": "SANEPAR",
+    "number": "287",
+    "codes": "SAPR4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "sabesp": {
+    "name": "SABESP",
+    "number": "288",
+    "codes": "SBSP3",
+    "category": "Big Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "saocarlos": {
+    "name": "SAO CARLOS",
+    "number": "289",
+    "codes": "SCAR3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "somoseduca": {
+    "name": "SOMOS EDUCA",
+    "number": "290",
+    "codes": "SEDU3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "sereduca": {
+    "name": "SER EDUCA",
+    "number": "291",
+    "codes": "SEER3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "springs": {
+    "name": "SPRINGS",
+    "number": "292",
+    "codes": "SGPS3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "timeforfun": {
+    "name": "TIME FOR FUN",
+    "number": "293",
+    "codes": "SHOW3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "schulz": {
+    "name": "SCHULZ",
+    "number": "294",
+    "codes": "SHUL4",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "simpar": {
+    "name": "SIMPAR",
+    "number": "295",
+    "codes": "SIMH3",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "slcagricola": {
+    "name": "SLC AGRICOLA",
+    "number": "296",
+    "codes": "SLCE3",
+    "category": "Mid Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "saraivalivr": {
+    "name": "SARAIVA LIVR",
+    "number": "297",
+    "codes": "SLED4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "smartfit": {
+    "name": "SMART FIT",
+    "number": "298",
+    "codes": "SMFT3",
+    "category": "-",
+    "sector": "Consumo C\u00edclico"
+  },
+  "smiles": {
+    "name": "SMILES",
+    "number": "299",
+    "codes": "SMLS3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "saomartinho": {
+    "name": "SAO MARTINHO",
+    "number": "300",
+    "codes": "SMTO3",
+    "category": "Mid Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "sansuy": {
+    "name": "SANSUY",
+    "number": "301",
+    "codes": "SNSY6",
+    "category": "Nano Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "gruposoma": {
+    "name": "GRUPO SOMA",
+    "number": "302",
+    "codes": "SOMA3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "sondotecnica": {
+    "name": "SONDOTECNICA",
+    "number": "303",
+    "codes": "SOND6",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "springer": {
+    "name": "SPRINGER",
+    "number": "304",
+    "codes": "SPRI6",
+    "category": "Nano Cap",
+    "sector": "Financeiro e Outros"
+  },
+  "sinqia": {
+    "name": "SINQIA",
+    "number": "305",
+    "codes": "SQIA3",
+    "category": "Small Cap",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "santosbrp": {
+    "name": "SANTOS BRP",
+    "number": "306",
+    "codes": "STBP3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "statkraft": {
+    "name": "STATKRAFT",
+    "number": "307",
+    "codes": "STKF3",
+    "category": "-",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "stara": {
+    "name": "STARA",
+    "number": "308",
+    "codes": "STTR3",
+    "category": "-",
+    "sector": "Bens Industriais"
+  },
+  "sulamerica": {
+    "name": "SUL AMERICA",
+    "number": "309",
+    "codes": "SULA4",
+    "category": "Mid Cap",
+    "sector": "Financeiro"
+  },
+  "suzanosa": {
+    "name": "SUZANO S.A.",
+    "number": "310",
+    "codes": "SUZB3",
+    "category": "Big Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "taesa": {
+    "name": "TAESA",
+    "number": "311",
+    "codes": "TAEE4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "taurusarmas": {
+    "name": "TAURUS ARMAS",
+    "number": "312",
+    "codes": "TASA4",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "tecnosolo": {
+    "name": "TECNOSOLO",
+    "number": "313",
+    "codes": "TCNO4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "tecnisa": {
+    "name": "TECNISA",
+    "number": "314",
+    "codes": "TCSA3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "technos": {
+    "name": "TECHNOS",
+    "number": "315",
+    "codes": "TECN3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "teka": {
+    "name": "TEKA",
+    "number": "316",
+    "codes": "TEKA4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "telebras": {
+    "name": "TELEBRAS",
+    "number": "317",
+    "codes": "TELB4",
+    "category": "Mid Cap",
+    "sector": "Comunica\u00e7\u00f5es"
+  },
+  "tenda": {
+    "name": "TENDA",
+    "number": "318",
+    "codes": "TEND3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "terrasanta": {
+    "name": "TERRA SANTA",
+    "number": "319",
+    "codes": "TESA3",
+    "category": "Micro Cap",
+    "sector": "Consumo n\u00e3o C\u00edclico"
+  },
+  "tegma": {
+    "name": "TEGMA",
+    "number": "320",
+    "codes": "TGMA3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "aestietee": {
+    "name": "AES TIETE E",
+    "number": "321",
+    "codes": "TIET4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "timpartsa": {
+    "name": "TIM PART S/A",
+    "number": "322",
+    "codes": "TIMP3",
+    "category": "Big Cap",
+    "sector": "Comunica\u00e7\u00f5es"
+  },
+  "tekno": {
+    "name": "TEKNO",
+    "number": "323",
+    "codes": "TKNO4",
+    "category": "Nano Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "totvs": {
+    "name": "TOTVS",
+    "number": "324",
+    "codes": "TOTS3",
+    "category": "Mid Cap",
+    "sector": "Tecnologia da Informa\u00e7\u00e3o"
+  },
+  "tectoy": {
+    "name": "TECTOY",
+    "number": "325",
+    "codes": "TOYB4",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "triunfopart": {
+    "name": "TRIUNFO PART",
+    "number": "326",
+    "codes": "TPIS3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "trisul": {
+    "name": "TRISUL",
+    "number": "327",
+    "codes": "TRIS3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "tranpaulist": {
+    "name": "TRAN PAULIST",
+    "number": "328",
+    "codes": "TRPL4",
+    "category": "Mid Cap",
+    "sector": "Utilidade P\u00fablica"
+  },
+  "tarponinv": {
+    "name": "TARPON INV",
+    "number": "329",
+    "codes": "TRPN3",
+    "category": "Nano Cap",
+    "sector": "Financeiro e Outros"
+  },
+  "tupy": {
+    "name": "TUPY",
+    "number": "330",
+    "codes": "TUPY3",
+    "category": "Small Cap",
+    "sector": "Bens Industriais"
+  },
+  "unicasa": {
+    "name": "UNICASA",
+    "number": "331",
+    "codes": "UCAS3",
+    "category": "Micro Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "ultrapar": {
+    "name": "ULTRAPAR",
+    "number": "332",
+    "codes": "UGPA3",
+    "category": "Mid Cap",
+    "sector": "Petr\u00f3leo. G\u00e1s e Biocombust\u00edveis"
+  },
+  "unipar": {
+    "name": "UNIPAR",
+    "number": "333",
+    "codes": "UNIP6",
+    "category": "Small Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "usiminas": {
+    "name": "USIMINAS",
+    "number": "334",
+    "codes": "USIM6",
+    "category": "Mid Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "vale": {
+    "name": "VALE",
+    "number": "335",
+    "codes": "VALE3",
+    "category": "Mega Cap",
+    "sector": "Materiais B\u00e1sicos"
+  },
+  "vivarasa": {
+    "name": "VIVARA S.A.",
+    "number": "336",
+    "codes": "VIVA3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "viver": {
+    "name": "VIVER",
+    "number": "337",
+    "codes": "VIVR3",
+    "category": "Nano Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "telefbrasil": {
+    "name": "TELEF BRASIL",
+    "number": "338",
+    "codes": "VIVT4",
+    "category": "Big Cap",
+    "sector": "Comunica\u00e7\u00f5es"
+  },
+  "valid": {
+    "name": "VALID",
+    "number": "339",
+    "codes": "VLID3",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "fercatlant": {
+    "name": "FER C ATLANT",
+    "number": "340",
+    "codes": "VSPT4",
+    "category": "Nano Cap",
+    "sector": "Bens Industriais"
+  },
+  "vulcabras": {
+    "name": "VULCABRAS",
+    "number": "341",
+    "codes": "VULC3",
+    "category": "Small Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "viavarejo": {
+    "name": "VIAVAREJO",
+    "number": "342",
+    "codes": "VVAR3",
+    "category": "Big Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "weg": {
+    "name": "WEG",
+    "number": "343",
+    "codes": "WEGE3",
+    "category": "Mega Cap",
+    "sector": "Bens Industriais"
+  },
+  "whirlpool": {
+    "name": "WHIRLPOOL",
+    "number": "344",
+    "codes": "WHRL4",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  },
+  "wizsa": {
+    "name": "WIZ S.A.",
+    "number": "345",
+    "codes": "WIZS3",
+    "category": "Small Cap",
+    "sector": "Financeiro"
+  },
+  "wlmindcom": {
+    "name": "WLM IND COM",
+    "number": "346",
+    "codes": "WLMM4",
+    "category": "Micro Cap",
+    "sector": "Bens Industriais"
+  },
+  "wilsonsons": {
+    "name": "WILSON SONS",
+    "number": "347",
+    "codes": "WSON33",
+    "category": "-",
+    "sector": "Bens Industriais"
+  },
+  "yduqspart": {
+    "name": "YDUQS PART",
+    "number": "348",
+    "codes": "YDUQ3",
+    "category": "Mid Cap",
+    "sector": "Consumo C\u00edclico"
+  }
+}

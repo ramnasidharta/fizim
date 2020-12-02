@@ -1,4 +1,0 @@
-requests
-pprint
-ckan
-ckanapi

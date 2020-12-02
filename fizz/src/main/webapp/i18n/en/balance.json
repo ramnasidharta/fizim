@@ -1,0 +1,29 @@
+{
+  "fizzApp": {
+    "balance": {
+      "home": {
+        "title": "Balances",
+        "createLabel": "Create a new Balance",
+        "createOrEditLabel": "Create or edit a Balance",
+        "notFound": "No Balances found"
+      },
+      "created": "A new Balance is created with identifier {{ param }}",
+      "updated": "A Balance is updated with identifier {{ param }}",
+      "deleted": "A Balance is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Balance {{ id }}?"
+      },
+      "detail": {
+        "title": "Balance"
+      },
+      "cnpj": "Cnpj",
+      "name": "Name",
+      "cvmCode": "Cvm Code",
+      "category": "Category",
+      "subcategory": "Subcategory",
+      "financialStatement": "Financial Statement",
+      "finalAccountingDate": "Final Accounting Date",
+      "value": "Value"
+    }
+  }
+}
