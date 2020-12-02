@@ -25,7 +25,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
  * REST controller for managing {@link com.modsim.fizz.domain.Balance}.
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/balances")
 public class BalanceResource {
     private final Logger log = LoggerFactory.getLogger(BalanceResource.class);
 
@@ -41,10 +41,10 @@ public class BalanceResource {
      * @param pageable the pagination information.
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of balances in body.
      */
-    @GetMapping("/balances")
-    public ResponseEntity<List<BalanceDTO>> getAllBalances(Pageable pageable) {
-        log.debug("REST request to get a page of Balances");
-        Page<BalanceDTO> page = balanceService.findAll(pageable);
+    @GetMapping
+    public ResponseEntity<List<BalanceDTO>> getAllBalances(BalanceDTO balanceDTO, Pageable pageable) {
+        log.debug("REST request GET /balances with body {} and pagination {}", balanceDTO, pageable);
+        Page<BalanceDTO> page = balanceService.findAllWithExample(balanceDTO, pageable);
         HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
         return ResponseEntity.ok().headers(headers).body(page.getContent());
     }
@@ -55,7 +55,7 @@ public class BalanceResource {
      * @param id the id of the balanceDTO to retrieve.
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the balanceDTO, or with status {@code 404 (Not Found)}.
      */
-    @GetMapping("/balances/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<BalanceDTO> getBalance(@PathVariable Long id) {
         log.debug("REST request to get Balance : {}", id);
         Optional<BalanceDTO> balanceDTO = balanceService.findOne(id);
